@@ -1,0 +1,318 @@
+
+ .about-banner-img {
+    position: relative;
+    overflow: hidden;
+
+}
+.about-banner-img img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+ .about-banner-img .opacity {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /*background-color: rgba(0,0,0,0.75);*/
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.about-banner-img .opacity h1 {
+    color: #fff;
+    text-align: center;
+}
+.about-text {
+    width: 100%;
+}
+.about-text .box {
+    width: 928px;
+    margin: 0 auto;
+}
+.about-text .box .text-container {
+    width: 62%;
+    float: left;
+    padding-left: 8%;
+}
+.about-text .box .second {
+    width: 38%;
+    float: left;
+    margin-top: 75px;
+}
+ 
+.about-text .box .text-container h2 {
+    color: #15d4f6;
+    text-align: left;
+    margin-top: 80px;
+}
+.about-text .box .text-container h5:nth-child(2) {
+    font-weight: bold;
+    margin: 23px 0;
+}
+.about-text .box .text-container h5:nth-child(5) {
+    margin-bottom: 90px;
+}
+
+.about-text .box .text-container h5 {
+    color: #676767;
+    width: 80%;
+}
+
+.about-text .box .text-container .line {
+    width: 120px;
+    height: 3px;
+    margin: 0;
+    background: linear-gradient(to right, #01faff, #12a4f7);
+    margin-top: 220px;
+}
+
+.about-text .box .second h3 {
+    font-weight: bold;
+    margin: 33px 0;
+    text-align: left;
+    width: 270px;
+    color: #333333;
+}
+.about-text .box .second h5 {
+    margin: 45px 0;
+    color: #333333;
+}
+.mission {
+    background: #e6f3ff;
+    width: 100%;
+    float: left;
+}
+.mission h2 {
+    padding-top: 98px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #000;
+}
+.mission h1 {
+    padding-top: 18px;
+    padding-bottom: 55px;
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+}
+.employee {
+    width: 100%;
+    margin: 0 auto;
+    float: left;
+}
+.employee-box {
+    width: 950px;
+    margin: 0 auto;
+    padding: 0 10px;  
+}
+.employee-box h2 {
+    padding-top: 98px;
+    padding-bottom: 24px;
+    text-align: center;
+    color:  #000;
+}
+
+.employee-box h5 {
+    color: #999999;
+    text-align: center;
+    width: 800px;
+    margin: 19px auto 100px;
+    -webkit-font-smoothing: antialiased;
+}
+
+#employee div .post {
+    position: absolute;
+    top: 30px;
+    color: #fff;
+    width: 150px;
+    font-size: 25px;
+    left: 30px;
+}
+
+#employee div .employ {
+    position: absolute;
+    bottom: 44px;
+    color: #fff;
+    width: 150px;
+    font-size: 18px;
+    left: 30px;
+}
+
+#employee div .white-line {
+    width: 60px;
+    height: 3px;
+    background: #fff;
+    position: absolute;
+    bottom: 36px;
+    left: 30px;
+}
+
+.employee-box .owl-prev,
+.employee-box .owl-next {
+    background: #35383b !important;
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    position: absolute;
+    top: 190px;
+ }
+.employee-box .owl-next {
+    right: -100px;
+ }
+.employee-box .owl-prev {
+    left: -100px;
+}
+.employee-box .owl-prev img, 
+.employee-box .owl-next img {
+    margin-top: 16px;
+}
+.employee-box .owl-next img {
+    margin-right: -3px;
+}
+.employee-box .owl-prev img  {
+    margin-left: -3px;
+}
+@media (max-width: 1180px) {
+    .employee-box {
+        width: 730px;
+    }
+    .employee-box .owl-prev, 
+    .employee-box .owl-next {
+        top: 110px;
+    }
+    .about-text .box {
+        width: 760px;
+    }
+    .employee-box h5 {
+        width: 700px;
+    }
+    #employee div .post {
+        font-size: 18px;
+    }
+    #employee div .employ {
+        bottom: 25px;
+        font-size: 16px;
+    }
+    #employee div .white-line {
+        width: 56px;
+        bottom: 18px;
+    }
+}
+
+@media (max-width: 950px) {
+    .employee-box {
+        width: 530px;
+    }
+    .employee-box .owl-prev, 
+    .employee-box .owl-next {
+        top: 70px;
+    }
+    .employee-box h5 {
+        width: 500px;
+    }
+    #employee div .post {
+        font-size: 16px;
+        top: 12px;
+    }
+    #employee div .employ {
+        bottom: 15px;
+        font-size: 15px;
+    }
+    #employee div .white-line {
+        width: 56px;
+        bottom: 9px;
+    }
+    #employee div .post,
+    #employee div .employ,
+    #employee div .white-line {
+        left: 10px;        
+    }
+
+
+
+
+    .about-text .box .text-container {
+        padding-left: 3%;        
+    }
+}
+
+
+@media  screen and (max-width: 800px) {
+    
+    .about-text .box .text-container,
+    .about-text .box {
+        width: 100%;
+    }
+    .about-text .box .text-container h5,
+    .about-text .box .text-container h3 {
+        width: 95%;       
+    }
+    .about-text .box .text-container .line {
+        margin-top: 0;
+    }
+    .about-text .box .text-container h5:nth-child(5) {
+        margin-bottom: 40px;
+    }
+    .about-text .box .second h5 {
+        margin: 74px 0;
+    }
+}
+@media (max-width: 750px) {
+    .employee-box {
+        width: 250px;   
+    }
+    .employee-box .owl-prev, 
+    .employee-box .owl-next {
+        top: 100px;
+    }
+    .employee-box h5 {
+        margin-left: -54%;
+        width: 483px;
+    }
+    #employee div .post {
+        font-size: 20px;
+    }
+    #employee div .employ {
+        bottom: 25px;
+        font-size: 16px;
+    }
+    #employee div .white-line {
+        width: 56px;
+        bottom: 18px;
+    }
+    .mission h1 {
+        width: 96%;
+    }
+}
+@media (max-width: 600px) { 
+    
+}
+@media (max-width: 500px) {
+    .employee-box .owl-nav {
+        display: none;
+    }
+    .employee-box h5 {
+        width: 100%;
+        margin-left: 0; 
+}
+}
+
+
