@@ -138,21 +138,23 @@
     text-align: center;
 }
 .clients .clients-box .logos {
-    height: 400px;
     margin: 0 auto;
-    width: 870px;
+    width: 100%;
     padding-top: 86px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .clients .clients-box .logos img {
     float: left;
     padding-bottom: 90px;
 }
-.clients .clients-box .logos img:nth-child(2) {
+/*.clients .clients-box .logos img:nth-child(2) {
     margin: 0 136px;
-}
-.clients .clients-box .logos img:nth-child(5) {
+}*/
+/*.clients .clients-box .logos img:nth-child(5) {
     margin: 0 214px;
-}
+}*/
 .who-we-are {
     width: 100%;
     float: left;
@@ -212,10 +214,11 @@
     background-image: -o-linear-gradient(left, #01f9ff 0%, #13a0f6 100%), -o-linear-gradient(left, #01f9ff 0%, #13a0f6 100%);
     background-image: linear-gradient(to right, #01f9ff 0%, #13a0f6 100%), linear-gradient(to right, #01f9ff 0%, #13a0f6 100%);
 }
+
 #jssor_1 .button:hover {
     background: linear-gradient(to right, #01faff, #12a4f7);
     border: none;
-    padding-left: 3px;
+    padding-left: 2.4px;
 }
 #jssor_1 .button:active {
     background: #000;
@@ -232,8 +235,8 @@
 }
 #jssor_1 .button:active {
     background: #000;
-    border-left: 3px solid #000;
-    border-right: 3px solid #000;
+    border: none;
+    padding-left: 2.4px;
 }
 .projects {
     float: left;
@@ -260,6 +263,7 @@
     float: left;  
     position: relative;
     overflow: hidden;
+    background: rgba(128, 128, 128, 0.91);
  }
  .projects [class^="row"] {
     overflow: hidden;
@@ -270,13 +274,14 @@
     display: block;
     transition: transform 0.5s, -webkit-transform 0.5s, -moz-transform 0.5s, -o-transform 0.5s; 
  } 
+
 .projects .imag-opacity {
     position: absolute;
     background-color: #000;
     width: 100%;
     height: 100%;
     z-index: 9999999;
-    opacity: 0.7;
+    opacity: 0.5;
     transition: opacity 0.5s;
 }
 .projects .row-first .rectangle .project-description,
@@ -325,7 +330,7 @@
 }
 .projects .row-first .rectangle:hover img,
 .projects .square:hover img {
-    transform: scale(1.25);
+    transform: scale(1.15);
 }
 .projects .row-first .rectangle .button,
 .projects .square .button {
@@ -377,11 +382,11 @@
     border-left: 4px solid #000;
     border-right: 4px solid #000;
 } 
-.projects .row-first .rectangle:hover .imag-opacity,
-.projects .square:hover .imag-opacity {
+.projects .row-second .view-all:hover .imag-opacity {
     opacity: 0;
     transition: opacity 0.5s, -webkit-opacity 0.5s, -moz-opacity 0.5s, -o-opacity 0.5s;
 }
+
 @media(max-width: 1300px) { 
     .projects .square .project-description.last {
       top: 40px;
@@ -395,28 +400,7 @@
     .blog-box .box,
     .clients .clients-box {
       width: 730px;
-    }
-
-    .clients .clients-box .logos {
-      width: 570px;
-    }
-    .clients .clients-box .logos img:nth-child(2),
-    .clients .clients-box .logos img:nth-child(5),
-    .clients .clients-box .logos img:nth-child(6) {
-      margin: 0;
-    }
-    .clients .clients-box .logos img:nth-child(2) {
-      margin-left: 157px;
-    }
-    .clients .clients-box .logos img:nth-child(4) {
-      margin-left: 157px;
-    }
-    .clients .clients-box .logos img:nth-child(5) {
-      margin-left: 26px;
-    }
-    .clients .clients-box .logos img:nth-child(6) {
-      margin-left: 215px;
-    }
+    }    
     .who-we-are .box {
       width: 90%;
     }
@@ -443,6 +427,17 @@
     .clients .clients-box .desc h5 {
         width: 90%;
     }
+}
+@media (max-width: 800px){
+    .clients .clients-box .logos img {
+        width: 34%;
+    }
+}
+@media (max-width: 1200px){
+    .clients .clients-box .logos img {
+        width: 30%;
+    }
+
 }
 @media  screen and (max-width: 768px) {
    
@@ -487,30 +482,12 @@
         width: 90%;
         margin: 0 auto;
     }
-    .clients .clients-box .logos {
-        width: 155px;
-        margin: 0 auto;
-    }
-    .clients .clients-box .logos img:nth-child(2) {
-        margin-left: -43px;
-    }
+    
+    
+}
+@media (max-width: 730px){
     .clients .clients-box .logos img {
-        padding-bottom: 30px;
-    }
-    .clients .clients-box .logos img:nth-child(3) {
-        margin-bottom: 20px;
-    }
-    .clients .clients-box .logos img:nth-child(4) {
-        margin-left: 0px;
-        margin-bottom: 40px;
-    }
-    .clients .clients-box .logos img:nth-child(5) {
-        margin-left: 18px;
-        margin-bottom: 50px;
-    }
-    .clients .clients-box .logos img:nth-child(6) {
-        margin-left: 0;
-        margin-bottom: 90px;
+        width: 262px;
     }
 }
 @media  screen and (max-width: 700px) {
@@ -529,6 +506,11 @@
     }
     .blog-box h5 {
         width: 80%;
+    }
+}
+@media (max-width: 550px){
+    .clients .clients-box .logos img {
+            width: 262px;
     }
 }
 

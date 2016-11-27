@@ -138,20 +138,20 @@
 
 #employee div .post {
     position: absolute;
-    top: 30px;
+    top: 13px;
     color: #fff;
     width: 150px;
-    font-size: 25px;
-    left: 30px;
+    font-size: 14px;
+    left: 25px;
 }
 
 #employee div .employ {
     position: absolute;
-    bottom: 44px;
     color: #fff;
     width: 150px;
-    font-size: 18px;
-    left: 30px;
+    font-size: 13px;
+    left: 25px;
+    bottom: 38px;
 }
 
 #employee div .white-line {
@@ -159,11 +159,11 @@
     height: 3px;
     background: #fff;
     position: absolute;
-    bottom: 36px;
-    left: 30px;
+    bottom: 33px;
+    left: 25px;
 }
 
-.employee-box .owl-prev,
+/*.employee-box .owl-prev,
 .employee-box .owl-next {
     background: #35383b !important;
     width: 50px;
@@ -173,8 +173,8 @@
     border-radius: 30px;
     position: absolute;
     top: 190px;
- }
-.employee-box .owl-next {
+ }*/
+/*.employee-box .owl-next {
     right: -100px;
  }
 .employee-box .owl-prev {
@@ -188,23 +188,49 @@
     margin-right: -3px;
 }
 .employee-box .owl-prev img  {
-    margin-left: -3px;
+    margin-left: -3px;*/
+/*}*/
+.employee .employee-box .employee-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.employee-box .employee-img .img-container {
+    width: 20%;
+    padding-bottom: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.employee-box .employee-img div  img {
+    width: 80%;
+    height: 215px;
 }
 @media (max-width: 1180px) {
     .employee-box {
         width: 730px;
     }
-    .employee-box .owl-prev, 
+    /*.employee-box .owl-prev, 
     .employee-box .owl-next {
         top: 110px;
-    }
+    }*/
     .about-text .box {
         width: 760px;
     }
     .employee-box h5 {
         width: 700px;
     }
-    #employee div .post {
+    .employee .employee-box .employee-img {
+        justify-content: space-between;
+    }
+    .employee-box .employee-img .img-container {
+        width: 25%;
+    }
+  /*  .employee-box .employee-img div  img {
+        height: 42%;
+    }*/
+    /*#employee div .post {
         font-size: 18px;
     }
     #employee div .employ {
@@ -214,21 +240,27 @@
     #employee div .white-line {
         width: 56px;
         bottom: 18px;
-    }
+    }*/
 }
 
 @media (max-width: 950px) {
     .employee-box {
-        width: 530px;
+        width: 730px;
     }
-    .employee-box .owl-prev, 
+    /*.employee-box .owl-prev, 
     .employee-box .owl-next {
         top: 70px;
-    }
+    }*/
     .employee-box h5 {
-        width: 500px;
+        width: 90%;
     }
-    #employee div .post {
+    /*.employee-box .employee-img .img-container {
+        width: 33%;
+    }
+    .employee-box .employee-img div  img {
+        height: 40%;
+    }*/
+    /*#employee div .post {
         font-size: 16px;
         top: 12px;
     }
@@ -244,7 +276,7 @@
     #employee div .employ,
     #employee div .white-line {
         left: 10px;        
-    }
+    }*/
 
 
 
@@ -277,41 +309,67 @@
 }
 @media (max-width: 750px) {
     .employee-box {
-        width: 250px;   
+        width: 570px;   
     }
-    .employee-box .owl-prev, 
+    /*.employee-box .owl-prev, 
     .employee-box .owl-next {
         top: 100px;
-    }
+    }*/
     .employee-box h5 {
-        margin-left: -54%;
-        width: 483px;
+        width: 90%;
     }
-    #employee div .post {
+    .employee-box .employee-img .img-container {
+        width: 33%;
+    }
+    /*#employee div .post {
         font-size: 20px;
     }
     #employee div .employ {
         bottom: 25px;
         font-size: 16px;
-    }
-    #employee div .white-line {
+    }*/
+   /* #employee div .white-line {
         width: 56px;
         bottom: 18px;
-    }
+    }*/
     .mission h1 {
         width: 96%;
     }
+
 }
-@media (max-width: 600px) { 
+@media (max-width: 650px) { 
+    .employee-box {
+        width: 470px;
+    }
+    .employee-box .employee-img .img-container {
+        width: 50%;
+    }
+    #employee div .post,
+    #employee div .employ,
+    #employee div .white-line {
+        left: 30px;
+    }
     
 }
 @media (max-width: 500px) {
-    .employee-box .owl-nav {
+ /*   .employee-box .owl-nav {
         display: none;
-    }
+    }*/
     .employee-box h5 {
         width: 100%;
         margin-left: 0; 
+}
+.employee-box {
+    width: 90%;
+}
+.employee .employee-box .employee-img {
+        justify-content: center;
+}
+.employee-box .employee-img .img-container{
+    width: 200px;
+}
+.employee-box .employee-img div  img {
+    width: 165px;
 }
 }
 

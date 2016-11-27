@@ -34,7 +34,7 @@
 					<li <?= (($active == "results") ? ' class="active-link"' : '') ?>><a href="{{ url('/results') }}">Results</a></li>
 					<li <?= (($active == "about") ? ' class="active-link"' : '') ?>><a href="{{ url('/about') }}">About</a></li>
 					<li <?= (($active == "careers") ? ' class="active-link"' : '') ?>><a href="{{ url('/careers') }}">Careers</a></li>
-					<li><a href="https://www.insights.com/" target="_blank">Insight</a></li>
+					<li><a href="http://blog.vicert.com/blog" target="_blank">Insight</a></li>
 				</ul>
 			</nav>
 			<div class="header-button">
@@ -86,3 +86,4 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>-->
 </body>
 </html>
+

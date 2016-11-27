@@ -63,7 +63,7 @@
 						</div>
 					</a>
 					<div class="imag-opacity"></div>
-					<img class="desktop" src="./local/resources/assets/img/home/img_project1.png">
+					<img class="desktop" src="./local/resources/assets/img/home/img_test.png">
 					<img class="mobile" src="./local/resources/assets/img/home/img_project11.jpg">
 						<div class="project-description">
 							<p>Minim Veniam Quis Tam</p>
@@ -77,7 +77,7 @@
 						</div>
 					</a>
 					<div class="imag-opacity"></div>
-					<img src="./local/resources/assets/img/home/img_project2.jpg">
+					<img src="./local/resources/assets/img/home/img_test2.jpg">
 					<div class="project-description">
 							<p>Minim Veniam Quis</p>
 							<p>No2 Project Second</p>
@@ -99,6 +99,7 @@
 						</div>		
 				</div>
 				<div class="square">
+					<div class="test">
 					<a href="">
 						<div id="button" class="button">
 							<span>View Project</span>
@@ -109,7 +110,8 @@
 					<div class="project-description">
 							<p>Minim Veniam Quis</p>
 							<p>No4 Project Fourth</p>
-						</div>		
+						</div>	
+					</div>	
 				</div>
 				<div class="square view-all">
 					<a href="">
@@ -201,7 +203,9 @@
               	<img src="./local/resources/assets/img/logo/img_socialWellth.png" alt="">
 				<img src="./local/resources/assets/img/logo/img_ahip.png" alt="">
             	<img src="./local/resources/assets/img/logo/img_kaiser.png" alt="">
-             	<img src="./local/resources/assets/img/logo/img_healthNet.jpg" alt="">
+             	<img src="./local/resources/assets/img/logo/img_healthNet.png" alt="">
+             	<img src="./local/resources/assets/img/logo/sage-triumph-logo-grey.png" alt="">
+             	<img src="./local/resources/assets/img/logo/logo-beacon-grey.png" alt="">
          	</div>
         </div>
     </div>

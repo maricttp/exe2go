@@ -70,8 +70,9 @@
     margin-top: 24px;
     letter-spacing: 0;
 }
+/*prvobitno res za tech*/
 
-.white-box {
+/*.white-box {
     width: 100%;
     height: 645px;
     box-sizing: border-box;
@@ -112,7 +113,7 @@
     padding-top: 50px;
     font-weight: bold;
     color: #676767;
-}
+}*/
 /*.white-box .delivery-img .subtitle,
 .white-box .technology-img .subtitle {
     font-size: 30px;
@@ -132,7 +133,7 @@
     margin: 0 auto;
     color: #a9a9a9;
 }*/
-.white-box .delivery-img h5 {
+/*.white-box .delivery-img h5 {
     padding-top: 16px;
     letter-spacing: 0px;
     width: 572px;
@@ -193,7 +194,7 @@
     padding-top: 101px;
     font-weight: bold;
     color: #676767;
-}
+}*/
 /*.gray-box .app .develop-img .subtitle {
     font-size: 30px;
     text-align: left;
@@ -211,7 +212,7 @@
     line-height: 2;
     color: #a9a9a9;
 }*/
-.gray-box .app .develop-img .text-box {
+/*.gray-box .app .develop-img .text-box {
     width: 70%;
     position: absolute;
     right: 0;
@@ -252,7 +253,7 @@
     padding-top: 123px;
     font-weight: bold;
     color: #676767;
-}
+}*/
 /*.gray-box .deploy .subtitle {
     font-size: 30px;
     text-align: left;
@@ -273,7 +274,7 @@
     padding-left: 25px;
 }*/
 
-.gray-box .deploy .develop-img h5 {
+/*.gray-box .deploy .develop-img h5 {
     width: 440px;
     color: #a9a9a9;
 }
@@ -329,7 +330,7 @@
     font-weight: bold;
     color: #676767;
     padding-bottom: 10px;
-}
+}*/
 /*.analytics-box .analytics .subtitle {
     font-size: 30px;
     text-align: left;
@@ -349,6 +350,259 @@
     color: #a9a9a9;
     padding-left: 25px;
 }*/
+/*zavrsava se prvobitno res za tech*/
+
+/*ovde pocinje product develop el*/
+.product-develop {
+    max-width: 1920px;
+    width: 100%;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+.product-develop .product-dev-box {
+    width: 385px;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+.product-develop .product-dev-box  h2 {
+    color: #009bff;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.product-develop .product-dev-box  h5 {
+    width: 350px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.product-develop .product-dev-box  .logo-box {
+    border-top: 1px dashed #bdbdbd;
+    border-bottom: 1px dashed #bdbdbd;
+    width: 385px;
+    margin-bottom: 50px; 
+
+}
+.product-develop .diagram-box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.product-develop .diagram-box .solutioning,
+.product-develop .diagram-box .screen-icon,
+.product-develop .diagram-box .deploy {
+    width: 33%;
+    float: left;
+}
+.product-develop .diagram-box .solutioning-circle,
+.product-develop .diagram-box .deploy-circle {
+    width: 92px;
+    height: 92px;
+    border: 1px dashed #009bff;
+    border-radius: 45px;
+}
+.product-develop .diagram-box .screen-icon .img {
+    margin: 0 auto;
+}
+
+.product-develop .diagram-box .solutioning img {
+    padding-top: 26px;
+    padding-left: 30px;    
+}
+.product-develop .diagram-box .screen-icon img {
+    position: relative;
+    left: 50%;
+    margin-left: -79.5px;;
+}
+.product-develop .diagram-box .deploy img{
+    padding-top: 27px;
+    padding-left: 38px;  
+
+}
+.product-develop .diagram-box  h3 {
+    color: #009bff;
+    line-height: 1.1;
+}
+.product-develop .diagram-box .solutioning h3 {
+    margin-left: 16px;
+    text-align: left;
+}
+.product-develop .diagram-box .solutioning .title,
+.product-develop .diagram-box  .deploy .title  {
+    margin-top: 16px;
+}
+
+.product-develop .diagram-box .deploy .circle-box {
+    float: right;
+    margin-right: -200px;
+    opacity: 0;
+    transition: margin-right 2s, opacity 4s;
+
+}
+.product-develop .diagram-box .solutioning .circle-box {
+    margin-left: -200px;
+    opacity: 0;
+    transition: margin-left 2s, opacity 4s;
+
+}
+/*.product-develop .diagram-box:hover .solutioning .circle-box {
+    margin-left: 0;
+    opacity: 1;
+    transition: margin-left 2s, opacity 2s 1s;
+}*/
+.product-develop .diagram-box .solutioning .circle-box.animation-cicrcle-box-sol {
+     margin-left: 0;
+    opacity: 1;
+    transition: margin-left 1s, opacity 1s .5s;
+}
+/*.product-develop .diagram-box:hover .deploy .circle-box {
+    margin-right: 0;
+    opacity: 1;
+    transition: margin-right 2s, opacity 2s 1s;
+}*/
+.product-develop .diagram-box .deploy .circle-box.animation-cicrcle-box-dep {
+    margin-right: 0;
+    opacity: 1;
+    transition: margin-right 1s, opacity 1s .5s;
+}
+
+
+
+.product-develop .diagram-box .solutioning .title {
+    margin-left: 5px;
+}
+.product-develop .diagram-box .solutioning .solutioning-circle {
+    margin-left: 54px;
+}
+.product-develop .diagram-box .deploy .deploy-circle {
+    margin-right: 54px;
+}
+.product-develop .diagram-box .deploy .title {
+    margin-right: 47px;
+}
+
+.product-develop .product-dev-box  .logo-box img {
+    padding-top: 35px;
+    padding-bottom: 22px;
+}
+.product-develop .lines {
+    position: relative;
+    width: 100%;
+    top: -55px;
+}
+.product-develop .lines .vertical-line {
+    border-right: 1px dashed #009bff;
+    height: 70px;
+    position: absolute;
+    left: 50.1%;
+    top: 77px;
+}
+.product-develop .lines .long-line {
+    border-top: 1px dashed #009bff;
+    border-left: 1px dashed #009bff;
+    border-right: 1px dashed #009bff;
+    width: 60%;
+    height: 48px;
+    margin: 100px auto 0 auto;
+}
+.product-develop .diagram-container {
+    width: 80%;
+    margin: 0 auto;
+} 
+.product-develop .diagram-container .tech {
+    width: 50.4%;
+    float: left;
+}
+.product-develop .diagram-container .architecture {
+    width: 25%;
+    float: left;
+
+}
+.product-develop .diagram-container .system {
+    width: 24.6%;
+    float: left;
+}
+.product-develop .diagram-container .column .circle {
+    width: 92px;
+    height: 92px;
+    border: 1px dashed #009bff;
+    border-radius: 45px;
+}
+.product-develop .diagram-container .architecture .circle {
+    margin: 0 auto;
+}
+.product-develop .diagram-container .tech .circle {
+    margin: 0 auto;
+}
+.product-develop .diagram-container .system .circle {
+    margin: 0 auto;
+}
+.product-develop .diagram-container .architecture .circle img {
+    margin-top: 23px;
+    margin-left: 18px;
+} 
+.product-develop .diagram-container .tech .circle img {
+    margin-top: 24px;
+    margin-left: 25px;
+}
+.product-develop .diagram-container .system .circle img {
+    margin-top: 26px;
+    margin-left: 17px;
+}
+
+.product-develop .diagram-container .column .logo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.product-develop .diagram-container .column .logo .grey-dash {
+   border-top: 1px dashed #bdbdbd;
+    width: 385px;
+    margin-top: 50px;
+    /*position: absolute;*/
+}
+.product-develop .diagram-container .system .logo img,
+.product-develop .diagram-container .tech .logo img,
+.product-develop .diagram-container .architecture .logo img {
+           padding-top: 50px;
+}
+ .product-develop .diagram-container .tech .logo img {
+        width: 74%;
+    }
+    .product-develop .diagram-container .system .logo img {
+        width: 100%;
+    }
+.product-develop .diagram-container .column h3 {
+    color: #009bff;    
+}
+
+.product-develop .diagram-container .architecture h3,
+.product-develop .diagram-container .tech h3,
+.product-develop .diagram-container .system h3 {
+    margin-top: 92px;
+}
+
+.product-develop .diagram-container .architecture h5,
+.product-develop .diagram-container .tech h5,
+.product-develop .diagram-container .system h5 {
+     text-align: center;
+     margin-top: 45px;
+}
+.product-develop .diagram-container .tech h5 {
+    width: 60%;
+}
+.product-develop .diagram-container .column .text {
+    display: flex;
+    justify-content: center;
+
+}
+ /*ovde se zavrsava product develop el*/
+
 
 .logo-gallery {
     width: 100%;
@@ -582,6 +836,13 @@
 .map .box .regulations p.text {
     padding-bottom: 100px;
 }
+@media (max-width: 1500px){
+    .product-develop .diagram-container .column .logo .grey-dash {
+        width: 300px;
+    }
+
+
+}
 @media (max-width: 1400px)  {
     .gray-box .app .develop-img .text-box,
     .analytics-box .analytics .text-box {
@@ -606,6 +867,35 @@
     }
     .gray-box .app .develop-img .num {
         padding-top: 50px;
+    }
+
+}
+@media (max-width: 1300px){
+    .product-develop .diagram-container .column .logo .grey-dash {
+        width: 250px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .product-develop .diagram-container .system .logo img,
+    .product-develop .diagram-container .tech .logo img,
+    .product-develop .diagram-container .architecture .logo img {
+        height: 24%;
+    }  
+    .product-develop .diagram-container .column .logo .grey-dash {
+        width: 200px;
+    }   
+}
+@media (max-width: 1024px){    
+    .product-develop .diagram-container .column h3 {
+        font-size: 27px;
+    }
+    .product-develop .diagram-container .architecture h5, 
+    .product-develop .diagram-container .tech h5, 
+    .product-develop .diagram-container .system h5 {
+            font-size: 17px;
+    }
+    .product-develop .diagram-container .tech h5 {
+        width: 55%;
     }
 
 }
@@ -679,6 +969,30 @@
     .map .box .regulations p.text {
         width: 50%;
     }
+
+
+}
+@media (max-width: 900px){
+    .product-develop .diagram-container .architecture .logo img {
+        width: 55%;
+    }
+    .product-develop .diagram-container .system .logo img,
+    .product-develop .diagram-container .tech .logo img,
+    .product-develop .diagram-container .architecture .logo img {
+        height: 21%;
+    }
+    .product-develop .diagram-container .column h3 {
+        font-size: 25px;
+    }
+    .product-develop .diagram-container .architecture h5, 
+    .product-develop .diagram-container .tech h5, 
+    .product-develop .diagram-container .system h5 {
+            font-size: 15px;
+    }
+    .product-develop .diagram-container .tech h5 {
+        width: 60%;
+    }
+
 }
 
 
@@ -834,6 +1148,17 @@
     .gray-box .app-img .img, 
     .gray-box .app .develop-img {
         height: 250px;
+    }
+    .product-develop .diagram-container .column h3 {
+        font-size: 23px;
+    }
+    .product-develop .diagram-container .architecture h5, 
+    .product-develop .diagram-container .tech h5, 
+    .product-develop .diagram-container .system h5 {
+            font-size: 14px;
+    }
+    .product-develop .diagram-container .tech h5 {
+        width: 67%;
     }
 }
 @media  screen and (max-width: 645px) {
