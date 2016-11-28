@@ -8,17 +8,19 @@ $(document).ready(function() {
 	var img = $(".logo-img img");
 
 	$(window).scroll(function() {
-		var y = $(this).scrollTop();
-		if (y > 700) {
-			if(!img.hasClass("dispal-none")) {
-	 			img.fadeOut(100, function() {
-					img.addClass( "dispal-none" );
-	    		});				
- 			}
-		} else {
-			img.fadeIn(100, function() {
-				img.removeClass( "dispal-none" );
-    		});
+		if(!$(".transperent").hasClass("active")) {
+			var y = $(this).scrollTop();
+			if (y > 700) {
+				if(!img.hasClass("dispal-none")) {
+		 			img.fadeOut(100, function() {
+						img.addClass( "dispal-none" );
+		    		});				
+	 			}
+			} else {
+				img.fadeIn(100, function() {
+					img.removeClass( "dispal-none" );
+	    		});
+			}
 		}
 	});
 
