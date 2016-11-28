@@ -5,7 +5,7 @@ $(document).ready(function() {
   		$( "header" ).toggleClass( "active" );
 	});
 
-	var img = $(".logo-img");
+	var img = $(".logo-img img");
 
 	$(window).scroll(function() {
 		var y = $(this).scrollTop();

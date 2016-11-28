@@ -361,6 +361,7 @@
     flex-wrap: wrap;
     justify-content: center;
     overflow: hidden;
+    padding-bottom: 70px;
 }
 .product-develop .product-dev-box {
     width: 385px;  
@@ -421,7 +422,7 @@
 }
 .product-develop .diagram-box .deploy img{
     padding-top: 27px;
-    padding-left: 38px;  
+    padding-left: 36px;  
 
 }
 [class^="product-develop"] .diagram-box  h3 {
