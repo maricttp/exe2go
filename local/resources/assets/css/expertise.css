@@ -888,7 +888,7 @@
 }
 .map .box .preventive .column.first .col .line-color {
     position: absolute;
-    height: 400px;
+    height: 420px;
     top: 90px;
     right: 11px;
     background: linear-gradient(to bottom, #12a4f7, #01faff);
@@ -1050,11 +1050,11 @@
     }
 }
 @media screen and (max-width: 1200px) {
-    .product-develop .diagram-container .system .logo img,
+/*    .product-develop .diagram-container .system .logo img,
     .product-develop .diagram-container .tech .logo img,
     .product-develop .diagram-container .architecture .logo img {
         height: 24%;
-    }  
+    }  */
     .product-develop .diagram-container .column .logo .grey-dash {
         width: 200px;
     }   
@@ -1078,6 +1078,9 @@
     .gray-box {
         height: 520px;
     }
+    .map .box .preventive {
+        height: 450px;
+    }
     .gray-box .app-img .img,
     .gray-box .app .develop-img {
         height: 500px;
@@ -1099,7 +1102,7 @@
         padding-left: 5%;
     }
     .map .box {
-        width: 740px;
+        width: 100%;
     }
     .map .box .preventive,
     .map .box .payers, 
@@ -1132,28 +1135,46 @@
     .map .box .preventive .second p.text, 
     .map .box .preventive .third p.text {
       padding-left: 9px;
+        font-size: 13px;
+    }
+    .map .box .regulations p.text,
+    .map .box .infrastructure p.text,   
+    .map .box .payers p.text,
+    .map .box .preventive .first p.text {
+        font-size: 13px;
     }
     .map .box .preventive .column.first .col .line-color {
-      right: -10px;
+        right: -10px;
+        height: 360px;
+        top: 83px;
+    }
+    .map .box .preventive .column p.title,
+    .map .box .preventive .column p.title{
+        font-size: 29px;
     }
     .map .box .regulations p.title, 
     .map .box .infrastructure p.title {
-      width: 30%;
+        width: 27%;
+        font-size: 29px;
     }
     .map .box .regulations p.text {
         width: 50%;
+    }
+    .map .box .payers .line-img .line-color {
+        height: 214px;
     }
 
 
 }
 @media (max-width: 900px){
-    .product-develop .diagram-container .architecture .logo img {
+/*    .product-develop .diagram-container .architecture .logo img {
         width: 55%;
-    }
+    }*/
     .product-develop .diagram-container .system .logo img,
     .product-develop .diagram-container .tech .logo img,
     .product-develop .diagram-container .architecture .logo img {
-        height: 21%;
+        height: 120px;
+        width: 85%;
     }
     .product-develop .diagram-container .column h3 {
         font-size: 25px;
