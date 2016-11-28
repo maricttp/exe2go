@@ -262,6 +262,7 @@
 .projects {
     float: left;
     width: 100%;  
+    background: gray;
 }
 .projects .row-first .rectangle {
     width: 66.6%;
@@ -286,6 +287,10 @@
     overflow: hidden;
     background: rgba(128, 128, 128, 0.91);
  }
+ .row-first .square,
+ .projects .square.view-all {
+    width: 33.4%;
+}
  .projects [class^="row"] {
     overflow: hidden;
  }
@@ -512,9 +517,7 @@
     .clients .clients-box .desc {
         width: 90%;
         margin: 0 auto;
-    }
-    
-    
+    } 
 }
 @media (max-width: 730px){
     .clients .clients-box .logos img {
@@ -538,7 +541,15 @@
     .blog-box h5 {
         width: 80%;
     }
+    .owl-carousel .item div p:nth-child(2) { 
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .owl-carousel .item {
+        height: 540px;
+    }
 }
+
 @media (max-width: 550px){
     .clients .clients-box .logos img {
             width: 262px;
@@ -548,6 +559,9 @@
     .projects .row-first .rectangle .project-description p:last-child,
      .projects .square .project-description p:last-child {
         font-size: 20px;
+     }
+     .owl-carousel .item div p:nth-child(1) {
+            margin-top: 20px;
      }
 }
 
@@ -562,10 +576,6 @@
     }
     .who-we-are .box .text {
       width: 100%;
-    }
-    .owl-carousel .item div p:nth-child(2) {
-      font-size: 24px;
-      letter-spacing: -1px;
     }
     .projects .row-first .mob {
       width: 100%;

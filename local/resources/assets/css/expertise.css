@@ -1282,6 +1282,9 @@
     .map .box .regulations .title {
       padding-top: 40px;
     }
+    .map .box .payers p.text {
+        padding-left: 10px;
+    }   
 }
 @media (max-width: 700px) {
     .white-box .delivery-img h5 {
