@@ -60,7 +60,7 @@ $(document).ready(function() {
           0:{
             items:1,
           },
-          750:{
+          500:{
             items:2,
           },
           1180:{
