@@ -1,4 +1,4 @@
-.jssorb05 {
+/*.jssorb05 {
     position: absolute;
 }
 .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
@@ -47,7 +47,28 @@
 }
 .jssora22r.jssora22rdn {
     background-position: -310px -31px;
+}*/
+.cover {
+    position: relative;
+    width: 100%;
 }
+.cover .cover-img {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 520px;
+    position: absolute;
+    overflow: hidden;
+    perspective: 225px;
+}
+.cover .cover-img img {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 610px;
+    position: absolute;
+}
+  
 .blog-box {
     width: 100%;
     background: #f5f6f8;
