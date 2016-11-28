@@ -37,21 +37,16 @@
 	    <a href="http://www.jssor.com" style="display:none">Bootstrap Carousel</a>
 	</div> --> 
 	<div class="cover">
-	<div class="cover-img">
-	            <img data-u="image" src="./local/resources/assets/img/home/imgherofirst.jpg">
-	            <div style="position: absolute; top: 25%; left: 30px; left: 50%; width: 440px; height: 60px;margin-left:-220px;font-size: 40px; color: #ffffff; line-height: 60px;">We Analyze, Design and</div>
-	            <div style="position: absolute; top: 35%; left: 50%; width: 630px; height: 50px;margin-left:-306px; font-size: 40px; color: #ffffff;">Implement Digital Health Solutions</div>
-	            <div style="position: absolute; top: 45%; left: 50%; width: 590px; height: 30px;margin-left:-273px; font-size: 20px; color: #ffffff;">Translating business requirements into digital health solutions</div>
+		<div class="cover-img">
+	            <img data-u="image" src="./local/resources/assets/img/home/imgherofirst1.jpg">
+	            <div class="title" style="position: absolute; top: 25%; width: 100%; text-align: center; font-size: 47px; color: #ffffff; line-height: 60px;">We Analyze, Design and<br> Implement Digital Health Solutions</div>
+	            <div class="subtitle" style="position: absolute; top: 45%; width: 100%; text-align: center; font-size: 23px; color: #ffffff;">Translating business requirements into digital health solutions</div>
         	 	<a href=""><div id="button" class="button"><span>Learn More</span></div></a>
  	        <div data-u="loading" style="position: absolute; top: 0px; left: 0px; width: 1300px; height: 520px; z-index: 1000; display: none;">
 	        <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
 	        <!-- <div style="position:absolute;display:block;background:url('./local/resources/assets/img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div> -->
 	    </div></div> 
-		<!-- <img src="./local/resources/assets/img/home/imgherofirst1.jpg"> -->
-		<!-- <div >We Analyze, Design and</div>
-	           <div >Implement Digital Health Solutions</div>
-	            <div>Translating business requirements into digital health solutions</div>
-        	 	<a href=""><div id="button" class="button"><span>Learn More</span></div></a -->
+		
 	</div>
 	<div class="who-we-are">			
 		<div class="box">	
