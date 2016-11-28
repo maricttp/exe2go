@@ -156,6 +156,7 @@
 	</div>
 </div> -->
 <!-- kraj prvobitnog resenja za  tech-->
+
 <div class="product-develop">
 	<div class="product-dev-box">
 		<h2>Product<br> Development</h2>
@@ -163,82 +164,156 @@
 		<div class="logo-box">
 			<img src="./local/resources/assets/img/expertise/logotipi_1.png">
 		</div>		
-	</div>
-	<div class="diagram-box">
-		<div class="solutioning">
-			<div class="circle-box">
-				<div class="solutioning-circle">
-					<img src="./local/resources/assets/img/expertise/solution_icon.png">
+	</div>	
+		<div class="diagram-box">
+			<div class="solutioning">
+				<div class="circle-box">
+					<div class="solutioning-circle">
+						<img src="./local/resources/assets/img/expertise/solution_icon.png">
+					</div>
+					<div class="title">
+						<h3>Solutioning</h3>
+					</div>
+				</div>					
+			</div>
+			<div class="screen-icon">
+				<div class="img">
+					<img src="./local/resources/assets/img/expertise/prod_dev_icon.png">
+				</div>	
+			</div>
+			<div class="deploy">
+				<div class="circle-box">
+					<div class="deploy-circle">
+						<img src="./local/resources/assets/img/expertise/deploy-icon.png">
+					</div>
+					<div class="title">
+						<h3>Deploy<br> to prod</h3>
+					</div>
 				</div>
-				<div class="title">
-					<h3>Solutioning</h3>
+			</div>
+		</div>
+		<div class="lines">
+			<div class="vertical-line"></div>
+			<div class="long-line"></div>
+		</div>
+		<div class="diagram-container">
+			<div class="column architecture">
+				<div class="circle">
+					<img src="./local/resources/assets/img/expertise/architecutre_design_icon.png">				
 				</div>
-			</div>					
-		</div>
-		<div class="screen-icon">
-			<div class="img">
-				<img src="./local/resources/assets/img/expertise/prod_dev_icon.png">
-			</div>	
-		</div>
-		<div class="deploy">
-			<div class="circle-box">
-				<div class="deploy-circle">
-					<img src="./local/resources/assets/img/expertise/deploy-icon.png">
+				<div class="logo">
+					<div class="grey-dash"></div>
+					<img src="./local/resources/assets/img/expertise/architecture_logos.png">
+					<div class="grey-dash"></div>				
 				</div>
-				<div class="title">
-					<h3>Deploy</h3>
+				<h3>Architecture<br> & Design</h3>
+				<div class="text">
+					<h5>Value for money is fixing mistakes before they are made</h5>
+				</div>	
+			</div>
+			<div class="column tech">
+				<div class="circle">
+					<img src="./local/resources/assets/img/expertise/tech_implement_icon.png">	
+				</div>
+				<div class="logo">
+					<div class="grey-dash"></div>				
+					<img src="./local/resources/assets/img/expertise/tech_info_logos.png">
+					<div class="grey-dash"></div>
+				</div>
+				<h3>Technical<br> implementation</h3>
+				<div class="text">
+					<h5>We are enabling the digital health revolution, not just managing legacy system evolution</h5>
+				</div>	
+			</div>
+			<div class="column system">
+				<div class="circle">
+					<img src="./local/resources/assets/img/expertise/sys_integration_icon.png">				
+				</div>
+				<div class="logo">
+					<div class="grey-dash"></div>
+					<img src="./local/resources/assets/img/expertise/sys_integration_logos.png">
+					<div class="grey-dash"></div>
+				</div>
+				<h3>System<br> integration</h3>
+				<div class="text">
+					<h5>We help plug digital health solutions into the healthtech ecosystem</h5>
+				</div>	
+			</div>
+		</div>		
+</div>
+<div class="responsive">
+	<div class="product-develop-mobile">
+		<div class="diagram-box">
+			<div class="vertical-line"></div>
+				<div class="solutioning">
+					<div class="circle-box">
+						<div class="solutioning-circle">
+							<img src="./local/resources/assets/img/expertise/solution_icon.png">
+						</div>
+						<div class="title">
+							<h3>Solutioning</h3>
+						</div>
+					</div>					
+				</div>
+				<div class="screen-icon">
+					<div class="arrow-left"></div>
+					<div class="arrow"></div>
+					<div class="arrow-right"></div>
+					<div class="img">
+						<img src="./local/resources/assets/img/expertise/prod_dev_icon.png">
+					</div>	
+					<div class="product-dev-box">
+						<h3>Product<br> Development</h3>
+						<h5>Through end-to-end development,<br> Vicert enables you to solve the<br> challenges of healthtech</h5>			
+					</div>	
+				</div>
+				<div class="column architecture">
+					<div class="arrow-left"></div>
+					<div class="arrow"></div>
+					<div class="arrow-right"></div>					
+					<div class="circle">
+						<img src="./local/resources/assets/img/expertise/architecutre_design_icon.png">				
+					</div>				
+					<h3>Architecture<br> & Design</h3>
+					<div class="text">
+						<h5>Value for money is fixing mistakes<br> before they are made</h5>
+					</div>	
+				</div>
+				<div class="column tech">
+					<div class="arrow-left"></div>
+					<div class="arrow"></div>
+					<div class="arrow-right"></div>					
+					<div class="circle">
+						<img src="./local/resources/assets/img/expertise/tech_implement_icon.png">	
+					</div>				
+					<h3>Technical<br> implementation</h3>
+					<div class="text">
+						<h5>We are enabling the digital health<br> revolution, not just managing legacy<br> system evolution</h5>
+					</div>	
+				</div>
+				<div class="column system">
+					<div class="arrow-left"></div>
+					<div class="arrow"></div>
+					<div class="arrow-right"></div>					
+					<div class="circle">
+						<img src="./local/resources/assets/img/expertise/sys_integration_icon.png">				
+					</div>					
+					<h3>System<br> integration</h3>
+					<div class="text">
+						<h5>We help plug digital health solutions into<br> the healthtech ecosystem</h5>
+					</div>	
+				</div>
+				<div class="deploy">
+					<div class="circle-box">
+						<div class="deploy-circle">
+							<img src="./local/resources/assets/img/expertise/deploy-icon.png">
+						</div>
+						<div class="title">
+							<h3>Deploy<br> to prod</h3>
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-	<div class="lines">
-		<div class="vertical-line"></div>
-		<div class="long-line"></div>
-
-	<div class="diagram-container">
-		<div class="column architecture">
-			<div class="circle">
-				<img src="./local/resources/assets/img/expertise/architecutre_design_icon.png">				
-			</div>
-			<div class="logo">
-				<div class="grey-dash"></div>
-				<img src="./local/resources/assets/img/expertise/architecture_logos.png">
-				<div class="grey-dash"></div>				
-			</div>
-			<h3>Architecture<br> & Design</h3>
-			<div class="text">
-				<h5>Value for money is fixing mistakes before they are made</h5>
-			</div>	
-		</div>
-		<div class="column tech">
-			<div class="circle">
-				<img src="./local/resources/assets/img/expertise/tech_implement_icon.png">	
-			</div>
-			<div class="logo">
-				<div class="grey-dash"></div>				
-				<img src="./local/resources/assets/img/expertise/tech_info_logos.png">
-				<div class="grey-dash"></div>
-			</div>
-			<h3>Technical<br> implementation</h3>
-			<div class="text">
-				<h5>We are enabling the digital health revolution, not just managing legacy system evolution</h5>
-			</div>	
-		</div>
-		<div class="column system">
-			<div class="circle">
-				<img src="./local/resources/assets/img/expertise/sys_integration_icon.png">				
-			</div>
-			<div class="logo">
-				<div class="grey-dash"></div>
-				<img src="./local/resources/assets/img/expertise/sys_integration_logos.png">
-				<div class="grey-dash"></div>
-			</div>
-			<h3>System<br> integration</h3>
-			<div class="text">
-				<h5>We help plug digital health solutions into the healthtech ecosystem</h5>
-			</div>	
-		</div>
-	</div>
 	</div>
 </div>
 <!-- <div class="logo-gallery">

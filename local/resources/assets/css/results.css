@@ -24,8 +24,7 @@
     height: 100%;
     z-index: 99999;
     opacity: 0;
-    transition: opacity 0.5s;
-    transition: opacity 0.5s, -webkit-opacity 0.5s, -moz-opacity 0.5s, -o-opacity 0.5s;
+    transition: opacity 1s, -webkit-opacity 1s, -moz-opacity 1s, -o-opacity 1s;
 }
 .project .square .project-description {
 	position: absolute;
@@ -51,9 +50,12 @@
 }
 .project .square .project-description p:last-child,
  .project .square .project-description p:first-child {
-    width: 440px;
+    width: 90%;
     margin: auto;
     color: #fff;
+}
+.project .square a {
+	text-decoration: none;
 }
 .project .square .project-description {
 	display: none;
@@ -71,6 +73,11 @@
     	width: 50%;
     }
 }
+@media (max-width: 1300px){
+	.project .square .project-description {
+	top: 150px;
+	}
+}
 
 
 @media only screen and (max-width: 1200px) {
@@ -81,16 +88,19 @@
 	.project .square .project-description p:last-child {
 		font-size: 15px;
 	}
-	.project .square .project-description {
-	top: 150px;
+	
 }
+@media (max-width: 1150px){
+	.project .square .project-description {
+	top: 120px;
+	}
 }
 @media only screen and (max-width: 992px) {
 	.project .square .project-description p:first-child {
-		font-size: 35px;
+		font-size: 30px;
 	}
 	.project .square .project-description p:last-child {
-		font-size: 14px;
+		font-size: 16px;
 	}
 	.project .square .project-description {
 	top: 75px;
@@ -112,7 +122,7 @@
 		font-size: 24px;
 	}
 	.project .square .project-description p:last-child {
-		font-size: 10px;
+		font-size: 14px;
 	}
 	.project .square .project-description {
 	top: 80px;
@@ -138,20 +148,20 @@
 		font-size: 30px;
 	}
 	.project .square .project-description p:last-child {
-		font-size: 13px;
+		font-size: 14px;
 	}
 	.project .square .project-description {
-		top: 167px;
+		top: 150px;
 	}
 }
 @media only screen and (max-width: 340px) {
 	.project .square .project-description p:first-child {
 		font-size: 25px;
 	}
-	.project .square .project-description p:last-child {
-		font-size: 10px;
-	}
+	/*.project .square .project-description p:last-child {
+		font-size: 12px;
+	}*/
 	.project .square .project-description {
-		top: 94px;
+		top: 74px;
 	}
 }

@@ -274,6 +274,9 @@
     display: block;
     transition: transform 0.5s, -webkit-transform 0.5s, -moz-transform 0.5s, -o-transform 0.5s; 
  } 
+ .projects .row-first .square .mobile{
+    display: none;
+ } 
 
 .projects .imag-opacity {
     position: absolute;
@@ -427,6 +430,13 @@
     .clients .clients-box .desc h5 {
         width: 90%;
     }
+    .projects .row-first .square .desktop {
+        display: none;
+    }
+    .projects .row-first .square .mobile {
+        display: block;
+    }
+
 }
 @media (max-width: 800px){
     .clients .clients-box .logos img {
@@ -512,6 +522,12 @@
     .clients .clients-box .logos img {
             width: 262px;
     }
+}
+@media (max-width: 500px){
+    .projects .row-first .rectangle .project-description p:last-child,
+     .projects .square .project-description p:last-child {
+        font-size: 20px;
+     }
 }
 
 @media  screen and (max-width: 410px) {

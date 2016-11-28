@@ -57,36 +57,37 @@
 	<div class="projects">
 			<div class="row-first">
 				<div class="rectangle mobile">
-					<a href="">
+					<a target="_blank" href="./local/resources/assets/pdf/CaseStudy_SgMART.pdf">
 						<div id="button" class="button">
 							<span>View Project</span>
 						</div>
 					</a>
 					<div class="imag-opacity"></div>
-					<img class="desktop" src="./local/resources/assets/img/home/img_test.png">
+					<img class="desktop" src="./local/resources/assets/img/home/img_project1a.png">
 					<img class="mobile" src="./local/resources/assets/img/home/img_project11.jpg">
 						<div class="project-description">
-							<p>Minim Veniam Quis Tam</p>
-							<p>No1 Project First-Much detail of it because it is awesome</p>
+							<p>Case Study</p>
+							<p>Maintenance and Renewal Activities Web App for Employer Groups</p>
 						</div>						
 				</div>
 				<div class="square">
-					<a href="">
+					<a target="_blank" href="./local/resources/assets/pdf/CaseStudy_Streams.pdf">
 						<div id="button" class="button">
 							<span>View Project</span>
 						</div>
 					</a>
 					<div class="imag-opacity"></div>
-					<img src="./local/resources/assets/img/home/img_test2.jpg">
+					<img class="desktop" src="./local/resources/assets/img/home/img_project2a.jpg">
+					<img class="mobile" src="./local/resources/assets/img/home/img_project2.jpg">
 					<div class="project-description">
-							<p>Minim Veniam Quis</p>
-							<p>No2 Project Second</p>
+							<p>Case Study</p>
+							<p>Patient Monitoring Mobile App for Clinicians</p>
 						</div>		
 				</div>				
 			</div>
 			<div class="row-second">
 				<div class="square">
-					<a href="">
+					<a target="_blank" href="./local/resources/assets/pdf/Doc - Vicert Digital Health Map.pdf">
 						<div id="button" class="button">
 							<span>View Project</span>
 						</div>
@@ -94,13 +95,12 @@
 					<div class="imag-opacity"></div>					
 					<img src="./local/resources/assets/img/home/img_project3.jpg">
 					<div class="project-description">
-							<p>Minim Veniam Quis</p>
-							<p>No3 Project Third<br>Description of Project</p>
-						</div>		
+							<p>Case Study</p>
+							<p>Digital Health Map</p>
+					</div>		
 				</div>
 				<div class="square">
-					<div class="test">
-					<a href="">
+					<a target="_blank" href="./local/resources/assets/pdf/CaseStudy_FAP.pdf">
 						<div id="button" class="button">
 							<span>View Project</span>
 						</div>
@@ -108,13 +108,12 @@
 					<div class="imag-opacity"></div>
 					<img src="./local/resources/assets/img/home/img_project4.jpg">
 					<div class="project-description">
-							<p>Minim Veniam Quis</p>
-							<p>No4 Project Fourth</p>
-						</div>	
+							<p>Case Study</p>
+							<p>Find a Provider App</p>
 					</div>	
 				</div>
 				<div class="square view-all">
-					<a href="">
+					<a href="{{ url('/results') }}">
 						<div id="button" class="button">
 							<span>View All Projects</span>
 						</div>
@@ -122,7 +121,7 @@
 					<div class="imag-opacity"></div>
 					<img src="./local/resources/assets/img/home/img_viewAll.jpg">
 					<div class="project-description last">
-							<p>View All Projects<br>Sample Description of Project</p>
+							<p>View All Projects</p>
 					</div>		
 				</div>
 			</div>
