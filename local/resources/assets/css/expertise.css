@@ -570,13 +570,15 @@
 .product-develop .diagram-container .tech .logo img,
 .product-develop .diagram-container .architecture .logo img {
            padding-top: 50px;
+           height: 140px;
 }
+.product-develop .diagram-container .architecture .logo img,
  .product-develop .diagram-container .tech .logo img {
-        width: 74%;
-    }
-    .product-develop .diagram-container .system .logo img {
-        width: 100%;
-    }
+    width: 74%;
+}
+.product-develop .diagram-container .system .logo img {
+    width: 100%;
+}
 .product-develop .diagram-container .column h3 {
     color: #009bff;    
 }
@@ -997,7 +999,7 @@
     height: 180px;
 }
 .map .box .preventive {
-    height: 500px;
+    height: 520px;
 }
 .map .box .infrastructure,
 .map .box .regulations {
@@ -1135,7 +1137,7 @@
     }
     .map .box .regulations p.title, 
     .map .box .infrastructure p.title {
-      width: 27%;
+      width: 30%;
     }
     .map .box .regulations p.text {
         width: 50%;
