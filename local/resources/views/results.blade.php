@@ -16,8 +16,8 @@
 					<img src="./local/resources/assets/img/home/img_project11.jpg">					
 				<div class="project-description">
 						<a target="_blank" href="./local/resources/assets/pdf/CaseStudy_SgMART.pdf">					
-							<p>Case Study</p>
 							<p>Maintenance and Renewal Activities Web App for Employer Groups</p>
+							<p>R&D Project</p>
 						</a>	
 					</div>		
 			</div>

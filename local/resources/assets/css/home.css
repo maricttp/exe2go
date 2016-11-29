@@ -225,8 +225,13 @@
 .who-we-are .box {
     width: 1140px;
     margin: 0 auto;
-    padding: 90px 0;
+    padding-top: 90px;
 } 
+.who-we-are .box .text-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 .who-we-are .box h2 {
     padding-bottom: 24px;
 }
@@ -504,6 +509,12 @@
       width: 90%;
     }
 }
+@media (max-width: 1130px){
+    .who-we-are .box .text h3 {
+        height: 150px;
+    }
+
+}
 
 @media  screen and (max-width: 1100px) {
     .projects [class^="row"] {
@@ -514,6 +525,9 @@
     }
     .projects .square {
       width: 50%;
+    }
+    .row-first .square, .projects .square.view-all {
+        width: 50%;
     }
     .projects .row-first .rectangle img,
     .projects .square img {  
@@ -526,12 +540,7 @@
     .clients .clients-box .desc h5 {
         width: 90%;
     }
-    .projects .row-first .square .desktop {
-        display: none;
-    }
-    .projects .row-first .square .mobile {
-        display: block;
-    }
+   
 
 }
 @media (max-width: 1000px){
@@ -542,6 +551,18 @@
     .cover .cover-img .subtitle {
         font-size: 15px!important;
     }   
+    .who-we-are .box .text {
+        width: 80%;
+        padding-bottom: 0;
+
+    }
+    .who-we-are .box .text h3 {
+        height: auto;
+    }
+    .who-we-are .box .text h5 {
+        text-align: justify;
+    }
+  
 
 }
 
@@ -588,12 +609,9 @@
         width: 90%;
         margin: 0 auto;
         float: none;
-        padding-bottom: 40px;
-        padding-top: 25px;
+        padding-top: 70px;
     }
-    .who-we-are .box .text:last-child {
-        padding-bottom: 20px;
-    }
+  
 }
 @media(max-width: 750px) {
     .blog-box .subtitle {
@@ -628,6 +646,9 @@
     }
     .projects .square {
       width: 100%;
+    }
+    .row-first .square, .projects .square.view-all {
+        width: 100%;
     }
     .projects .row-first .rectangle .mobile  {
       display: block;
