@@ -52,17 +52,19 @@
 		<div class="box">	
 			<h2>Who We Are</h2>
 			<div class="line"></div>
-			<div class="text">
-				<h3>We work exclusively in<br> Digital Health</h3>
-				<h5>We have 15 years exclusively in the industry, we were digital health before it was called digital health. We don’t develop our engineers in healthcare so we can sell them into the finance sector. People join Vicert because they want to take part in the sweeping changes facing the healthcare industry today. HIPAA obamacare, meaningful use, we speak your language.</h5>
-			</div>
-			<div class="text">
-				<h3>We work with Disruptors and the Establishment</h3>
-				<h5>We work with newcomers who need our help building their tech solutions that allow them to meet their business goals.We also work with established players who seek nimble and specialized partners who can help them deliver value quickly and effectively (big partners can not help them with that).</h5>
-			</div>
-			<div class="text">
-				<h3>We Cross Pollinate<br>__</h3>
-				<h5>By helping established healthcare players build their DH solution we learn about the pain points and challenges they have. We are often able to leverage that knowledge with the newcomers as they rarely understand and can see what is over the hill for them. On the other hand, we learn how newcomers solve their challenges and can bring that experience back to the established players who would not think and act in that way.</h5>
+			<div class="text-container">
+				<div class="text">
+					<h3>We work exclusively in<br> Digital Health</h3>
+					<h5>We have 15 years exclusively in the industry, we were digital health before it was called digital health. We don’t develop our engineers in healthcare so we can sell them into the finance sector. People join Vicert because they want to take part in the sweeping changes facing the healthcare industry today. HIPAA obamacare, meaningful use, we speak your language.</h5>
+				</div>
+				<div class="text">
+					<h3>We work with Disruptors and the Establishment</h3>
+					<h5>We work with newcomers who need our help building their tech solutions that allow them to meet their business goals.We also work with established players who seek nimble and specialized partners who can help them deliver value quickly and effectively (big partners can not help them with that).</h5>
+				</div>
+				<div class="text">
+					<h3>We Cross Pollinate<br>__</h3>
+					<h5>By helping established healthcare players build their DH solution we learn about the pain points and challenges they have. We are often able to leverage that knowledge with the newcomers as they rarely understand and can see what is over the hill for them. On the other hand, we learn how newcomers solve their challenges and can bring that experience back to the established players who would not think and act in that way.</h5>
+				</div>
 			</div>		
 		</div>
 	</div>
@@ -78,7 +80,7 @@
 					<img class="desktop" src="./local/resources/assets/img/home/img_project1a.png">
 					<img class="mobile" src="./local/resources/assets/img/home/img_project11.jpg">
 						<div class="project-description">
-							<p>Case Study</p>
+							<p>R&D Project</p>
 							<p>Maintenance and Renewal Activities Web App for Employer Groups</p>
 						</div>						
 				</div>
@@ -90,9 +92,8 @@
 					</a>
 					<div class="imag-opacity"></div>
 					<img class="desktop" src="./local/resources/assets/img/home/img_project2a.jpg">
-					<img class="mobile" src="./local/resources/assets/img/home/img_project2.jpg">
 					<div class="project-description">
-							<p>Case Study</p>
+							<p>R&D Project</p>
 							<p>Patient Monitoring Mobile App for Clinicians</p>
 						</div>		
 				</div>				
@@ -107,7 +108,7 @@
 					<div class="imag-opacity"></div>					
 					<img src="./local/resources/assets/img/home/img_project3.jpg">
 					<div class="project-description">
-							<p>Case Study</p>
+							<p>R&D Project</p>
 							<p>Digital Health Map</p>
 					</div>		
 				</div>
@@ -120,7 +121,7 @@
 					<div class="imag-opacity"></div>
 					<img src="./local/resources/assets/img/home/img_project4.jpg">
 					<div class="project-description">
-							<p>Case Study</p>
+							<p>R&D Project</p>
 							<p>Find a Provider App</p>
 					</div>	
 				</div>
