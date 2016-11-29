@@ -45,28 +45,28 @@
 	    <div id="employee" class="employee-img">
 	         <div class="img-container">
 	         	<img src="./local/resources/assets/img/about/img_aleksandarZ.png"/>
-	         	<p class="post">Head of Operations</p>
-	         	<p class="employ">Boris Z.</p>
+	         	<p class="post"></p>
+	         	<p class="employ">Aleksandar Z.</p>
 	         	<div class="white-line"></div>
 	         </div>
 
 	         <div class="img-container">
 	         	<img src="./local/resources/assets/img/about/img_Boris.png"/>
-	         	<p class="post">CEO</p>
+	         	<p class="post"></p>
 	         	<p class="employ">Boris Z.</p>
 	         	<div class="white-line"></div>
 	         </div>
 
 	         <div class="img-container">
 	         	<img src="./local/resources/assets/img/about/img_dejann.png"/>
-	         	<p class="post">Director of Development</p>
+	         	<p class="post"></p>
 	         	<p class="employ">Dejan N.</p>
 	         	<div class="white-line"></div>
 	         </div>
 
 	         <div class="img-container">
 	         	<img src="./local/resources/assets/img/about/img_sofija.png"/>
-	         	<p class="post">Marketing Manager</p>
+	         	<p class="post"></p>
 	         	<p class="employ">Sofija D.</p>
 	         	<div class="white-line"></div>
 	         </div>
@@ -74,55 +74,55 @@
            	<div class="img-container">
 	         	<img src="./local/resources/assets/img/about/img_darko.png"/>
 	         	<p class="post"></p>
-	         	<p class="employ">Darko</p>
-	         	<div class="white-line"></div>
-	         </div>
-	         <div class="img-container">
-	         	<img src="./local/resources/assets/img/about/img_david.png"/>
-	         	<p class="post"></p>
-	         	<p class="employ">David</p>
+	         	<p class="employ">Darko N.</p>
 	         	<div class="white-line"></div>
 	         </div>
 	         <div class="img-container">
 	         	<img src="./local/resources/assets/img/about/img_goran.png"/>
 	         	<p class="post"></p>
-	         	<p class="employ">Goran</p>
+	         	<p class="employ">Goran S.</p>
 	         	<div class="white-line"></div>
 	         </div>
 	         <div class="img-container">
 	         	<img src="./local/resources/assets/img/about/img_iva.png"/>
 	         	<p class="post"></p>
-	         	<p class="employ">Iva</p>
+	         	<p class="employ">Iva L.</p>
 	         	<div class="white-line"></div>
 	         </div>
 	         <div class="img-container">
 	         	<img src="./local/resources/assets/img/about/img_marija.png"/>
 	         	<p class="post"></p>
-	         	<p class="employ">Marija</p>
-	         	<div class="white-line"></div>
-	         </div>
-	         <div class="img-container">
-	         	<img src="./local/resources/assets/img/about/img_mat.png"/>
-	         	<p class="post"></p>
-	         	<p class="employ"></p>
+	         	<p class="employ">Marija S.</p>
 	         	<div class="white-line"></div>
 	         </div>
  	         <div class="img-container">
 	         	<img src="./local/resources/assets/img/about/img_sanya.png"/>
 	         	<p class="post"></p>
-	         	<p class="employ">Sanja</p>
+	         	<p class="employ">Sanja Z.</p>
 	         	<div class="white-line"></div>
 	         </div>
  	         <div class="img-container">
 	         	<img src="./local/resources/assets/img/about/img_vladimir.png"/>
 	         	<p class="post"></p>
-	         	<p class="employ">Vladimir</p>
+	         	<p class="employ">Vladimir S.</p>
+	         	<div class="white-line"></div>
+	         </div>
+ 	         <div class="img-container">
+	         	<img src="./local/resources/assets/img/about/img_mat.png"/>
+	         	<p class="post"></p>
+	         	<p class="employ">Matt B.</p>
+	         	<div class="white-line"></div>
+	         </div>
+ 	         <div class="img-container">
+	         	<img src="./local/resources/assets/img/about/img_david.png"/>
+	         	<p class="post"></p>
+	         	<p class="employ">David S.</p>
 	         	<div class="white-line"></div>
 	         </div>
  	         <div class="img-container">
 	         	<img src="./local/resources/assets/img/about/img_voja.png"/>
 	         	<p class="post"></p>
-	         	<p class="employ">Voja</p>
+	         	<p class="employ">Voja L.</p>
 	         	<div class="white-line"></div>
 	         </div>
 

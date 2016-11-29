@@ -16,8 +16,8 @@
 					<img src="./local/resources/assets/img/home/img_project11.jpg">					
 				<div class="project-description">
 						<a target="_blank" href="./local/resources/assets/pdf/CaseStudy_SgMART.pdf">					
-							<p>Case Study</p>
 							<p>Maintenance and Renewal Activities Web App for Employer Groups</p>
+							<p>R&D Project</p>
 						</a>	
 					</div>		
 			</div>
@@ -26,8 +26,8 @@
 				<img src="./local/resources/assets/img/home/img_project2.jpg">
 				<div class="project-description">
 					<a target="_blank" href="./local/resources/assets/pdf/CaseStudy_Streams.pdf">
-						<p>Case Study</p>
 						<p>Patient Monitoring Mobile App for Clinicians</p>
+						<p>R&D Project</p>
 					</a>	
 				</div>		
 			</div>
@@ -37,8 +37,8 @@
 				<img src="./local/resources/assets/img/home/img_project3.jpg">
 				<div class="project-description">	
 					<a target="_blank" href="./local/resources/assets/pdf/Doc - Vicert Digital Health Map.pdf">						
-						<p>Case Study</p>
 						<p>Digital Health Map</p>
+						<p>R&D Project</p>
 					</a>	
 				</div>		
 			</div>
@@ -49,8 +49,8 @@
 				<img src="./local/resources/assets/img/home/img_project4.jpg">
 				<div class="project-description">
 					<a target="_blank" href="./local/resources/assets/pdf/CaseStudy_FAP.pdf">
-						<p>Case Study</p>
 						<p>Find a Provider App</p>
+						<p>R&D Project</p>
 					</a>	
 				</div>		
 			</div>
@@ -59,8 +59,8 @@
 				<img src="./local/resources/assets/img/home/blog_4.jpg">
 				<div class="project-description">
 					<a target="_blank" href="http://blog.vicert.com/blog/devops-vicert-lessons-learned">
-						<p>Case Study</p>
 						<p>DevOps @ Vicert – Lessons Learned</p>
+						<p>R&D Project</p>
 					</a>	
 				</div>		
 			</div>
@@ -69,8 +69,8 @@
 				<img src="./local/resources/assets/img/home/blog_2.jpg">
 				<div class="project-description">	
 					<a target="_blank" href="http://blog.vicert.com/blog/how-to-integrate-multiple-wellness-devices-using-human-api">						
-						<p>Case Study</p>
 						<p>How to integrate multiple Wellness devices using Human API</p>
+						<p>R&D Project</p>
 					</a>	
 				</div>		
 			</div>

@@ -23,11 +23,11 @@
     -webkit-align-items: center;
     -moz-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -moz-box-pack: center;
     -ms-flex-pack: center;
+    align-items: center;
     justify-content: center;
     box-sizing: border-box;
 }
@@ -443,12 +443,20 @@
     margin-right: -200px;
     opacity: 0;
     transition: margin-right 2s, opacity 4s;
+    -webkit-transition: margin-right 2s, opacity 4s;
+    -moz-transition:margin-right 2s, opacity 4s;
+    -o-transition: margin-right 2s, opacity 4s;
+    -ms-transition:margin-right 2s, opacity 4s;
 
 }
 .product-develop .diagram-box .solutioning .circle-box {
     margin-left: -200px;
     opacity: 0;
     transition: margin-left 2s, opacity 4s;
+    -webkit-transition: margin-left 2s, opacity 4s;
+    -moz-transition:margin-left 2s, opacity 4s;
+    -o-transition: margin-left 2s, opacity 4s;
+    -ms-transition:margin-left 2s, opacity 4s;
 
 }
 /*.product-develop .diagram-box:hover .solutioning .circle-box {
@@ -460,6 +468,11 @@
      margin-left: 0;
     opacity: 1;
     transition: margin-left 1s, opacity 1s .5s;
+    -webkit-transition:  margin-left 1s, opacity 1s .5s;
+    -moz-transition: margin-left 1s, opacity 1s .5s;
+    -o-transition:  margin-left 1s, opacity 1s .5s;
+    -ms-transition: margin-left 1s, opacity 1s .5s;
+ 
 }
 /*.product-develop .diagram-box:hover .deploy .circle-box {
     margin-right: 0;
@@ -470,6 +483,10 @@
     margin-right: 0;
     opacity: 1;
     transition: margin-right 1s, opacity 1s .5s;
+    -webkit-transition: margin-right 1s, opacity 1s .5s;
+    -moz-transition:margin-right 1s, opacity 1s .5s;
+    -o-transition: margin-right 1s, opacity 1s .5s;
+    -ms-transition:margin-right 1s, opacity 1s .5s;
 }
 
 
@@ -746,11 +763,19 @@
     top: 45.5px;
     right: 6.5px;
     transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
 }
 .product-develop-mobile .screen-icon .arrow-left {
     top: 38.5px;
     right: 6.5px;
     transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
 }
 .product-develop-mobile .architecture .arrow-left,
 .product-develop-mobile .tech .arrow-left,
@@ -758,6 +783,10 @@
     top: 103px;
     right: 6.5px;
     transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
 }
 .product-develop-mobile .architecture .arrow-right,
 .product-develop-mobile .tech .arrow-right,
@@ -765,19 +794,12 @@
     top: 97px;
     right: 6.5px;
     transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
 }
-
-
-
-
-
-
-
-
-
  /*ovde se zavrsava product develop el*/
-
-
 .logo-gallery {
     width: 100%;
     margin: 0 auto;
@@ -806,12 +828,20 @@
     border-style: none;
     opacity: 0.5;
     -webkit-filter: grayscale(100%); 
+    -moz-filter: grayscale(100%); 
+    -o-filter: grayscale(100%); 
+    -ms-filter: grayscale(100%); 
     filter: grayscale(100%);
      margin: 10px auto;
 }
 .logo-gallery  .logo-gallery-item img:hover {
     opacity: 1;
     -webkit-filter: none;
+    -webkit-filter: none; 
+    -moz-filter: none; 
+    -o-filter: none; 
+    -ms-filter: none; 
+    
     filter: none;
 }
 .map {
@@ -1014,8 +1044,6 @@
     .product-develop .diagram-container .column .logo .grey-dash {
         width: 300px;
     }
-
-
 }
 @media (max-width: 1400px)  {
     .gray-box .app .develop-img .text-box,
@@ -1487,6 +1515,4 @@
     .product-develop-mobile .system .arrow-right {
         right: 17.5px;
     }
-
-
 }

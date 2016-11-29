@@ -22,7 +22,7 @@
 				<h5>The Technical Project Lead is a person with 5+ years of experience in developing software. The candidate is, first and foremost, a programmer who writes code, uses software development tools and frameworks and is fully and completely capable of writing software.</h5>
 				<div class="color-box" ><div class="white-box"><a>Read More</a></div></div>
 			</div>
-			<div class="careers-position">
+			<!-- <div class="careers-position">
 				<h5>Technical Project Lead</h5>
 				<h5>The Technical Project Lead is a person with 5+ years of experience in developing software. The candidate is, first and foremost, a programmer who writes code, uses software development tools and frameworks and is fully and completely capable of writing software.</h5>
 				<div class="color-box" ><div class="white-box"><a>Read More</a></div></div>
@@ -31,7 +31,7 @@
 				<h5>Technical Project Lead</h5>
 				<h5>The Technical Project Lead is a person with 5+ years of experience in developing software. The candidate is, first and foremost, a programmer who writes code, uses software development tools and frameworks and is fully and completely capable of writing software.</h5>
 				<div class="color-box" ><div class="white-box"><a>Read More</a></div></div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 @endsection
