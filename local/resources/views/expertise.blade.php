@@ -162,14 +162,14 @@
 		<h2>Product<br> Development</h2>
 		<h5>Through end-to-end development, Vicert enables you to solve the challenges of healthtech</h5>
 		<div class="logo-box">
-			<img src="./local/resources/assets/img/expertise/logotipi_1.png">
+			<img src="./local/resources/assets/img/expertise/logotipi_1.png"/>
 		</div>		
 	</div>	
 		<div class="diagram-box">
 			<div class="solutioning">
 				<div class="circle-box">
 					<div class="solutioning-circle">
-						<img src="./local/resources/assets/img/expertise/solution_icon.png">
+						<img src="./local/resources/assets/img/expertise/solution_icon.png"/>
 					</div>
 					<div class="title">
 						<h3>Solutioning</h3>
@@ -178,13 +178,13 @@
 			</div>
 			<div class="screen-icon">
 				<div class="img">
-					<img src="./local/resources/assets/img/expertise/prod_dev_icon.png">
+					<img src="./local/resources/assets/img/expertise/prod_dev_icon.png"/>
 				</div>	
 			</div>
 			<div class="deploy">
 				<div class="circle-box">
 					<div class="deploy-circle">
-						<img src="./local/resources/assets/img/expertise/deploy-icon.png">
+						<img src="./local/resources/assets/img/expertise/deploy-icon.png"/>
 					</div>
 					<div class="title">
 						<h3>Deploy<br> to prod</h3>
@@ -199,11 +199,11 @@
 		<div class="diagram-container">
 			<div class="column architecture">
 				<div class="circle">
-					<img src="./local/resources/assets/img/expertise/architecutre_design_icon.png">				
+					<img src="./local/resources/assets/img/expertise/architecutre_design_icon.png"/>				
 				</div>
 				<div class="logo">
 					<div class="grey-dash"></div>
-					<img src="./local/resources/assets/img/expertise/architecture_logos.png">
+					<img src="./local/resources/assets/img/expertise/architecture_logos.png"/>
 					<div class="grey-dash"></div>				
 				</div>
 				<h3>Architecture<br> & Design</h3>
@@ -213,11 +213,11 @@
 			</div>
 			<div class="column tech">
 				<div class="circle">
-					<img src="./local/resources/assets/img/expertise/tech_implement_icon.png">	
+					<img src="./local/resources/assets/img/expertise/tech_implement_icon.png"/>	
 				</div>
 				<div class="logo">
 					<div class="grey-dash"></div>				
-					<img src="./local/resources/assets/img/expertise/tech_info_logos.png">
+					<img src="./local/resources/assets/img/expertise/tech_info_logos.png"/>
 					<div class="grey-dash"></div>
 				</div>
 				<h3>Technical<br> implementation</h3>

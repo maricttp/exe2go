@@ -194,6 +194,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    -webkit-ustify-content: center;
     padding-bottom: 100px;
 }
 .employee-box .employee-img .img-container {
@@ -202,6 +205,8 @@
     position: relative;
     display: flex;
     justify-content: center;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
 }
 .employee-box .employee-img div  img {
     width: 80%;
@@ -222,6 +227,7 @@
         width: 700px;
     }
     .employee .employee-box .employee-img {
+        -webkit-justify-content: space-between;  
         justify-content: space-between;
     }
     .employee-box .employee-img .img-container {
@@ -363,7 +369,8 @@
     width: 90%;
 }
 .employee .employee-box .employee-img {
-        justify-content: center;
+        -webkit-justify-content: center;
+        justify-content: center;        
 }
 .employee-box .employee-img .img-container{
     width: 200px;

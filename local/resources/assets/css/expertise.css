@@ -358,7 +358,10 @@
     width: 100%;
     margin:0 auto;
     display: flex;
+    display: -webkit-flex;    
+    -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-justify-content: center;
     justify-content: center;
     overflow: hidden;
     padding-bottom: 70px;
@@ -366,7 +369,10 @@
 .product-develop .product-dev-box {
     width: 385px;  
     display: flex;
+    display: -webkit-flex;    
+    -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-justify-content: center;
     justify-content: center;   
 }
 .product-develop .product-dev-box  h2 {
@@ -390,9 +396,11 @@
 .product-develop .diagram-box {
     width: 100%;
     display: flex;
+    display: -webkit-flex;
     flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
     justify-content: space-between;
-
+    -webkit-justify-content: space-between;
 }
 .product-develop .diagram-box .solutioning,
 .product-develop .diagram-box .screen-icon,
@@ -442,14 +450,18 @@
     float: right;
     margin-right: -200px;
     opacity: 0;
+    -webkit-transition: margin-right 2s, opacity 4s;
+    -mox-transition: margin-right 2s, opacity 4s;    
+    -o-transition: margin-right 2s, opacity 4s;
     transition: margin-right 2s, opacity 4s;
-
 }
 .product-develop .diagram-box .solutioning .circle-box {
     margin-left: -200px;
     opacity: 0;
+    -webkit-transition: margin-right 2s, opacity 4s;
+    -mox-transition: margin-right 2s, opacity 4s;    
+    -o-transition: margin-right 2s, opacity 4s;
     transition: margin-left 2s, opacity 4s;
-
 }
 /*.product-develop .diagram-box:hover .solutioning .circle-box {
     margin-left: 0;
@@ -459,6 +471,9 @@
 .product-develop .diagram-box .solutioning .circle-box.animation-cicrcle-box-sol {
      margin-left: 0;
     opacity: 1;
+    -webkit-transition: margin-left 1s, opacity 1s .5s;
+    -mox-transition: margin-left 1s, opacity 1s .5s;
+    -o-transition: margin-left 1s, opacity 1s .5s;
     transition: margin-left 1s, opacity 1s .5s;
 }
 /*.product-develop .diagram-box:hover .deploy .circle-box {
@@ -469,11 +484,11 @@
 .product-develop .diagram-box .deploy .circle-box.animation-cicrcle-box-dep {
     margin-right: 0;
     opacity: 1;
+    -webkit-transition: margin-right 1s, opacity 1s .5s;
+    -moz-transition: margin-right 1s, opacity 1s .5s;
+    -o-transition: margin-right 1s, opacity 1s .5s;
     transition: margin-right 1s, opacity 1s .5s;
 }
-
-
-
 .product-develop .diagram-box .solutioning .title {
     margin-left: 5px;
 }
@@ -558,8 +573,12 @@
 
 .product-develop .diagram-container .column .logo{
     display: flex;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
     justify-content: center;
     flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+
 }
 .product-develop .diagram-container .column .logo .grey-dash {
    border-top: 1px dashed #bdbdbd;
@@ -601,8 +620,9 @@
 }
 .product-develop .diagram-container .column .text {
     display: flex;
+    display: -webkit-flex;
     justify-content: center;
-
+    -webkit-justify-content: center;
 }
 .responsive {
     display: none;
@@ -611,12 +631,18 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+     display: -webkit-flex;
+    -webkit-justify-content: space-around;
+    -webkit-flex-wrap: wrap;
 }
 .product-develop-mobile .diagram-box {
     width: 300px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    display: -webkit-flex;
+    -webkit-justify-content: space-around;
+    -webkit-flex-wrap: wrap;
     margin: 0 auto;
     position: relative;
 }
@@ -745,11 +771,17 @@
 .product-develop-mobile .screen-icon .arrow-right {
     top: 45.5px;
     right: 6.5px;
-    transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);   
 }
 .product-develop-mobile .screen-icon .arrow-left {
     top: 38.5px;
     right: 6.5px;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
     transform: rotate(45deg);
 }
 .product-develop-mobile .architecture .arrow-left,
@@ -757,27 +789,22 @@
 .product-develop-mobile .system .arrow-left {
     top: 103px;
     right: 6.5px;
-    transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);    
 }
 .product-develop-mobile .architecture .arrow-right,
 .product-develop-mobile .tech .arrow-right,
 .product-develop-mobile .system .arrow-right  {
     top: 97px;
     right: 6.5px;
-    transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);    
 }
-
-
-
-
-
-
-
-
-
  /*ovde se zavrsava product develop el*/
-
-
 .logo-gallery {
     width: 100%;
     margin: 0 auto;

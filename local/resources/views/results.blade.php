@@ -13,7 +13,7 @@
 		<div class="row-second">
 			<div class="square">
 				<div class="imag-opacity"></div>
-					<img src="./local/resources/assets/img/home/img_project11.jpg">					
+					<img src="./local/resources/assets/img/results/img_project11.jpg">					
 				<div class="project-description">
 						<a target="_blank" href="./local/resources/assets/pdf/CaseStudy_SgMART.pdf">					
 							<p>Maintenance and Renewal Activities Web App for Employer Groups</p>
@@ -23,22 +23,22 @@
 			</div>
 			<div class="square">
 				<div class="imag-opacity"></div>
-				<img src="./local/resources/assets/img/home/img_project2.jpg">
+				<img src="./local/resources/assets/img/results/img_project2a.jpg">
 				<div class="project-description">
 					<a target="_blank" href="./local/resources/assets/pdf/CaseStudy_Streams.pdf">
-						<p>Case Study</p>
 						<p>Patient Monitoring Mobile App for Clinicians</p>
+						<p>R&D Project</p>
 					</a>	
 				</div>		
 			</div>
 			<div class="square">		
 				
 				<div class="imag-opacity"></div>
-				<img src="./local/resources/assets/img/home/img_project3.jpg">
+				<img src="./local/resources/assets/img/results/img_project3.jpg">
 				<div class="project-description">	
 					<a target="_blank" href="./local/resources/assets/pdf/Doc - Vicert Digital Health Map.pdf">						
-						<p>Case Study</p>
 						<p>Digital Health Map</p>
+						<p>R&D Project</p>
 					</a>	
 				</div>		
 			</div>
@@ -46,31 +46,31 @@
 		<div class="row-second">
 			<div class="square">
 				<div class="imag-opacity"></div>					
-				<img src="./local/resources/assets/img/home/img_project4.jpg">
+				<img src="./local/resources/assets/img/results/img_project4.jpg">
 				<div class="project-description">
 					<a target="_blank" href="./local/resources/assets/pdf/CaseStudy_FAP.pdf">
-						<p>Case Study</p>
 						<p>Find a Provider App</p>
+						<p>R&D Project</p>
 					</a>	
 				</div>		
 			</div>
 			<div class="square">
 				<div class="imag-opacity"></div>
-				<img src="./local/resources/assets/img/home/blog_4.jpg">
+				<img src="./local/resources/assets/img/results/blog_4.jpg">
 				<div class="project-description">
 					<a target="_blank" href="http://blog.vicert.com/blog/devops-vicert-lessons-learned">
-						<p>Case Study</p>
 						<p>DevOps @ Vicert – Lessons Learned</p>
+						<p>R&D Project</p>
 					</a>	
 				</div>		
 			</div>
 			<div class="square">					
 				<div class="imag-opacity"></div>
-				<img src="./local/resources/assets/img/home/blog_2.jpg">
+				<img src="./local/resources/assets/img/results/blog_2.jpg">
 				<div class="project-description">	
 					<a target="_blank" href="http://blog.vicert.com/blog/how-to-integrate-multiple-wellness-devices-using-human-api">						
-						<p>Case Study</p>
-						<p>How to integrate multiple Wellness devices using Human API</p>
+						<p>How to integrate multiple Wellness devices using Human APIy</p>
+						<p>R&D Project</p>
 					</a>	
 				</div>		
 			</div>
