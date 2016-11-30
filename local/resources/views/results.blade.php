@@ -68,7 +68,7 @@
 				<div class="imag-opacity"></div>
 				<img src="./local/resources/assets/img/results/blog_2.jpg">
 				<div class="project-description">	
-					<a target="_blank" href="http://blog.vicert.com/blog/how-to-integrate-multiple-wellness-devices-using-human-api">						
+					<a target="_blank" href="http://blog.vicert.com/blog/how-to-integrate-multiple-wellness-devices-using-human-api">	
 						<p>How to integrate multiple Wellness devices using Human APIy</p>
 						<p>R&D Project</p>
 					</a>	

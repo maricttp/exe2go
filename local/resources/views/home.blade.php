@@ -211,20 +211,16 @@
 			</div>
             <div class="logos">
                 <img src="./local/resources/assets/img/logo/img_healthwize.jpg" alt="">
-             	<img src="./local/resources/assets/img/logo/img_blue.png" alt="">
-              	<img src="./local/resources/assets/img/logo/img_socialWellth.png" alt="">
 				<img src="./local/resources/assets/img/logo/img_ahip.png" alt="">
-            	<img src="./local/resources/assets/img/logo/img_kaiser.png" alt="">
              	<img src="./local/resources/assets/img/logo/img_healthNet.png" alt="">
+              	<img src="./local/resources/assets/img/logo/img_blue.png" alt="">
+            	<img src="./local/resources/assets/img/logo/img_kaiser.png" alt="">
+              	<img src="./local/resources/assets/img/logo/img_socialWellth.png" alt="">
              	<img src="./local/resources/assets/img/logo/sage-triumph-logo-grey.png" alt="">
              	<img src="./local/resources/assets/img/logo/logo-beacon-grey.png" alt="">
          	</div>
         </div>
     </div>
-
-
-
-
 	<script type="text/javascript" src="./local/resources/assets/js/jssor.slider.mini.js"></script>
 	<script type="text/javascript" src="./local/resources/assets/js/home.js"></script>
 	

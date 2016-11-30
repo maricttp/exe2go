@@ -5,7 +5,7 @@ $(document).ready(function() {
   		$( "header" ).toggleClass( "active" );
 	});
 
-	var img = $(".logo-img img");
+	var img = $("header.transperent .logo-img img");
 
 	$(window).scroll(function() {
 		if(!$(".transperent").hasClass("active")) {
