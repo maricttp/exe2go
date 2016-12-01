@@ -12,67 +12,72 @@
 	<div class="project" >
 		<div class="row-second">
 			<div class="square">
-				<div class="imag-opacity"></div>
-					<img src="./local/resources/assets/img/results/img_project11.jpg">					
-				<div class="project-description">
-						<a target="_blank" href="./local/resources/assets/pdf/CaseStudy_SgMART.pdf">					
+				<a target="_blank" href="./local/resources/assets/pdf/CaseStudy_SgMART.pdf">
+					<img src="./local/resources/assets/img/results/img_project11.jpg">	
+					<span class="imag-opacity">
+						<div class="project-description">
 							<p>Maintenance and Renewal Activities Web App for Employer Groups</p>
 							<p>R&D Project</p>
-						</a>	
-					</div>		
+						</div>	
+					</span>
+				</a>
 			</div>
 			<div class="square">
-				<div class="imag-opacity"></div>
-				<img src="./local/resources/assets/img/results/img_project2a.jpg">
-				<div class="project-description">
-					<a target="_blank" href="./local/resources/assets/pdf/CaseStudy_Streams.pdf">
-						<p>Patient Monitoring Mobile App for Clinicians</p>
-						<p>R&D Project</p>
-					</a>	
-				</div>		
+				<a target="_blank" href="./local/resources/assets/pdf/CaseStudy_Streams.pdf">
+					<img src="./local/resources/assets/img/results/img_project2a.jpg">
+					<span class="imag-opacity">				
+						<div class="project-description">
+								<p>Patient Monitoring Mobile App for Clinicians</p>
+								<p>R&D Project</p>
+						</div>
+					</span>	
+				</a>
 			</div>
 			<div class="square">		
-				
-				<div class="imag-opacity"></div>
-				<img src="./local/resources/assets/img/results/img_project3.jpg">
-				<div class="project-description">	
-					<a target="_blank" href="./local/resources/assets/pdf/Doc - Vicert Digital Health Map.pdf">						
-						<p>Digital Health Map</p>
-						<p>R&D Project</p>
-					</a>	
-				</div>		
+				<a target="_blank" href="./local/resources/assets/pdf/Doc - Vicert Digital Health Map.pdf">					
+					<img src="./local/resources/assets/img/results/img_project3.jpg">
+					<span class="imag-opacity">
+						<div class="project-description">	
+							<p>Digital Health Map</p>
+							<p>R&D Project</p>
+						</div>
+					</span>
+				</a>
 			</div>
 		</div>
 		<div class="row-second">
 			<div class="square">
-				<div class="imag-opacity"></div>					
-				<img src="./local/resources/assets/img/results/img_project4.jpg">
-				<div class="project-description">
-					<a target="_blank" href="./local/resources/assets/pdf/CaseStudy_FAP.pdf">
-						<p>Find a Provider App</p>
-						<p>R&D Project</p>
-					</a>	
-				</div>		
+				<a target="_blank" href="./local/resources/assets/pdf/CaseStudy_FAP.pdf">
+					<img src="./local/resources/assets/img/results/img_project4.jpg">
+					<span class="imag-opacity">		
+						<div class="project-description">
+							<p>Find a Provider App</p>
+							<p>R&D Project</p>
+						</div>
+					</span>	
+				</a>
 			</div>
 			<div class="square">
-				<div class="imag-opacity"></div>
-				<img src="./local/resources/assets/img/results/blog_4.jpg">
-				<div class="project-description">
-					<a target="_blank" href="http://blog.vicert.com/blog/devops-vicert-lessons-learned">
-						<p>DevOps @ Vicert – Lessons Learned</p>
-						<p>R&D Project</p>
-					</a>	
-				</div>		
+				<a target="_blank" href="http://blog.vicert.com/blog/devops-vicert-lessons-learned">
+					<img src="./local/resources/assets/img/results/blog_4.jpg">					
+					<span class="imag-opacity">
+						<div class="project-description">
+							<p>DevOps @ Vicert – Lessons Learned</p>
+							<p>R&D Project</p>
+						</div>
+					</span>
+				</a>
 			</div>
-			<div class="square">					
-				<div class="imag-opacity"></div>
-				<img src="./local/resources/assets/img/results/blog_2.jpg">
-				<div class="project-description">	
-					<a target="_blank" href="http://blog.vicert.com/blog/how-to-integrate-multiple-wellness-devices-using-human-api">	
-						<p>How to integrate multiple Wellness devices using Human APIy</p>
-						<p>R&D Project</p>
-					</a>	
-				</div>		
+			<div class="square">	
+				<a target="_blank" href="http://blog.vicert.com/blog/how-to-integrate-multiple-wellness-devices-using-human-api">	
+					<img src="./local/resources/assets/img/results/blog_2.jpg">
+					<span class="imag-opacity">
+						<div class="project-description">	
+							<p>How to integrate multiple Wellness devices using Human APIy</p>
+							<p>R&D Project</p>
+						</div>
+					</span>	
+				</a>
 			</div>
 		</div>
 	</div>
