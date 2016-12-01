@@ -443,7 +443,12 @@
     -o-transition: transform 0.5s, -o-transform 0.5s;
     transition: transform 0.5s;
     transition: transform 0.5s, -webkit-transform 0.5s, -moz-transform 0.5s, -o-transform 0.5s;
-    transform: scale(1.15);    
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+
 }
 .projects .row-first .rectangle .button,
 .projects .square .button {
@@ -589,7 +594,11 @@
         -moz-transition: transform 0.3s, -moz-transform 0.3s;
         -o-transition: transform 0.3s, -o-transform 0.3s;
         transition: transform 0.3s;
-        transform: scale(1.1);
+        transform: scale(1.);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
         
     }
     .clients .clients-box .desc h5 {
