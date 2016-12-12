@@ -50,6 +50,19 @@
 
 
 $(document).ready(function() {
+
+  function scrollNav() {
+      $("#arrow-slide").click(function(){  
+        //Animate
+          $('body').stop().animate({
+              scrollTop: $( $(this).attr('href') ).offset().top 
+          }, 400);
+          return false;
+      });
+   }
+  scrollNav();
+
+
     $('.owl-carousel').owlCarousel({
       loop:true,
       margin:16,

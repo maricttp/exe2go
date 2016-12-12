@@ -115,6 +115,7 @@ header .box nav {
 header.active .box nav ul,
 header .box nav ul {
     text-align: right;
+    float: left;
 }
 header .box nav ul li {
     display: inline;

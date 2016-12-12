@@ -29,7 +29,7 @@
 			</div>
 			<nav>
 				<ul>
-					<!-- <li>><a href="{{ url('/') }}">Home</a></li> -->
+					<li <?= (($active == "home") ? ' class="active-link"' : '') ?>><a href="{{ url('/') }}">Home</a></li>					
 					<li <?= (($active == "expertise") ? ' class="active-link"' : '') ?>><a href="{{ url('/expertise') }}">Expertise</a></li>
 					<li <?= (($active == "results") ? ' class="active-link"' : '') ?>><a href="{{ url('/results') }}">Results</a></li>
 					<li <?= (($active == "about") ? ' class="active-link"' : '') ?>><a href="{{ url('/about') }}">About</a></li>

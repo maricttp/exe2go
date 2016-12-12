@@ -7,67 +7,66 @@
 </head>
 
 @section('content')
-<!-- 	<div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 520px; overflow: hidden; visibility: hidden;">
-	    <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
-	        <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
-	        <!-- <div style="position:absolute;display:block;background:url('./local/resources/assets/img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div> -->
-	    <!-- </div> -->
-	    <!-- div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 520px; overflow: hidden;">
-	        <div data-p="225.00" style="display: none;">
-	            <img data-u="image" src="./local/resources/assets/img/home/imgherofirst.jpg" />
-	            <div style="position: absolute; top: 25%; left: 30px; left: 50%; width: 440px; height: 60px;margin-left:-220px;font-size: 40px; color: #ffffff; line-height: 60px;">We Analyze, Design and</div>
-	            <div style="position: absolute; top: 35%; left: 50%; width: 630px; height: 50px;margin-left:-306px; font-size: 40px; color: #ffffff;">Implement Digital Health Solutions</div>
-	            <div style="position: absolute; top: 45%; left: 50%; width: 590px; height: 30px;margin-left:-273px; font-size: 20px; color: #ffffff;">Translating business requirements into digital health solutions</div>
-        	 	<a href=""><div id="button" class="button"><span>Learn More</span></div></a>
- 	        </div> -->
-	    <!--     <div data-p="225.00" style="display: none;">
-	            <img data-u="image" src="./local/resources/assets/img/home/1.jpg" />
-	        </div>
-	        <div data-p="225.00" style="display: none;">
-	            <img data-u="image" src="./local/resources/assets/img/home/2.jpg" />
-	        </div> -->
-	    <!-- </div> -->
-	    <!-- Bullet Navigator 
-	    <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
-	        <div data-u="prototype" style="width:16px;height:16px;"></div>
-	    </div>-->
-	    <!-- Arrow Navigator -->
-	   <!--  <span data-u="arrowleft" class="jssora22l" style="top:0px;left:12px;width:40px;height:58px;" data-autocenter="2"></span>
-	    <span data-u="arrowright" class="jssora22r" style="top:0px;right:12px;width:40px;height:58px;" data-autocenter="2"></span>
-	    <a href="http://www.jssor.com" style="display:none">Bootstrap Carousel</a>
-	</div> --> 
+
 	<div class="cover">
 		<div class="cover-img">
 	            <img data-u="image" src="./local/resources/assets/img/home/imgherofirst1.jpg">
-	            <div class="title" style="position: absolute; top: 25%; width: 100%; text-align: center; font-size: 47px; color: #ffffff; line-height: 60px;">We Analyze, Design and<br> Implement Digital Health Solutions</div>
-	            <div class="subtitle" style="position: absolute; top: 45%; width: 100%; text-align: center; font-size: 23px; color: #ffffff;">Translating business requirements into digital health solutions</div>
-        	 	<a href=""><div id="button" class="button"><span>Learn More</span></div></a>
+	            <div class="title" style="position: absolute; top: 40%; width: 100%; text-align: center; font-size: 47px; color: #ffffff; line-height: 60px;">We build Digital Health solutions</div>
+	            <div class="subtitle" style="position: absolute; top: 45%; width: 100%; text-align: center; font-size: 23px; color: #ffffff;"><!-- Translating business requirements into digital health solutions --></div>
+	            
+        	 	<a id="arrow-slide" href="#who"><img class="arrow" src="./local/resources/assets/img/home/arrow.png"></a>
  	        <div data-u="loading" style="position: absolute; top: 0px; left: 0px; width: 1300px; height: 520px; z-index: 1000; display: none;">
-	        <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
-	        <!-- <div style="position:absolute;display:block;background:url('./local/resources/assets/img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div> -->
-	    </div></div> 
+	        	<div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+	        </div>
+	    </div> 
 		
 	</div>
-	<div class="who-we-are">			
+	<div id="who" class="who-we-are">			
 		<div class="box">	
-			<h2>Who We Are</h2>
+			<h2>We deliver quantum leap in time to market,<br> quality and cost effectiveness</h2>
 			<div class="line"></div>
+			<div class="subtitle">
+				<h5>We work closely with our client's IT and Business organizations during the formative stages of the projects. We deploy nimble and specialized teams who have delivered over 300 DH solutions over the past 15 years. Our deep expertise in Software Development and Digital Health allows us to analyze, design and implement the solution in an iterative and client centric approach, thus offering unparalleled value for the money to our customers.</h5>
+			</div>
 			<div class="text-container">
 				<div class="text">
-					<h3>We work exclusively in<br> Digital Health</h3>
-					<h5>We have 15 years exclusively in the industry, we were digital health before it was called digital health. We don’t develop our engineers in healthcare so we can sell them into the finance sector. People join Vicert because they want to take part in the sweeping changes facing the healthcare industry today. HIPAA obamacare, meaningful use, we speak your language.</h5>
+					<h3>Product Development</h3>
+					<h5>Through end-to-end development, Vicert enables you to solve the challenges of health tech.</h5>
 				</div>
 				<div class="text">
-					<h3>We work with Disruptors and the Establishment</h3>
-					<h5>We work with newcomers who need our help building their tech solutions that allow them to meet their business goals.We also work with established players who seek nimble and specialized partners who can help them deliver value quickly and effectively (big partners can not help them with that).</h5>
+					<h3>Architecture and Design</h3>
+					<h5>Value for money is fixing mistakes before they are made.</h5>
 				</div>
 				<div class="text">
-					<h3>We Cross Pollinate<br>__</h3>
-					<h5>By helping established healthcare players build their DH solution we learn about the pain points and challenges they have. We are often able to leverage that knowledge with the newcomers as they rarely understand and can see what is over the hill for them. On the other hand, we learn how newcomers solve their challenges and can bring that experience back to the established players who would not think and act in that way.</h5>
+					<h3>Technology Implementation</h3>
+					<h5>We are enabling the digital health revolution, not just managing legacy system evolution.</h5>
+				</div>
+				<div class="text">
+					<h3>System<br> Integration</h3>
+					<h5>We help plug digital health solutions into the health tech ecosystem.</h5>
 				</div>
 			</div>		
 		</div>
 	</div>
+	<div class="grey-line"></div>
+	<div class="clients">
+    	<div class="clients-box">
+	        <h2>Clients & Partners</h2>
+	        <div class="line"></div>
+	        <div class="desc">
+	        	<h5>We build Digital Health solutions for Health Tech product companies, Payers and Providers. Having worked with the Blues, Kaiser Permanente, as well as numerous product companies serving the health IT and Digital Health market we are used to working with both established and new players who seek nimble and specialized partners who can help them solve problems quickly and effectively.</h5>
+			</div>
+            <div class="logos">
+                <img src="./local/resources/assets/img/logo/img_healthwize.jpg" alt="">
+				<img src="./local/resources/assets/img/logo/img_ahip.png" alt="">
+              	<img src="./local/resources/assets/img/logo/img_blue.png" alt="">
+            	<img src="./local/resources/assets/img/logo/img_kaiser.png" alt="">
+              	<img src="./local/resources/assets/img/logo/img_socialWellth.png" alt="">
+             	<img src="./local/resources/assets/img/logo/sage-triumph-logo-grey.png" alt="">
+             	<img src="./local/resources/assets/img/logo/logo-beacon-grey.png" alt="">
+         	</div>
+        </div>
+    </div>
 	<div class="projects">
 			<div class="row-first">
 				<div class="rectangle mobile">
@@ -201,26 +200,7 @@
 			  	</div>
 			</div>
 		</div>
-	</div>
-    <div class="clients">
-    	<div class="clients-box">
-	        <h2>Clients</h2>
-	        <div class="line"></div>
-	        <div class="desc">
-	        	<h5>Having worked with the Blues, Kaiser Permanente, as well as numerous product companies serving the health IT and Digital Health market we are used to working with both established and new players who seek nimble and specialized partners who can help them solve problems quickly and effectively.</h5>
-			</div>
-            <div class="logos">
-                <img src="./local/resources/assets/img/logo/img_healthwize.jpg" alt="">
-				<img src="./local/resources/assets/img/logo/img_ahip.png" alt="">
-             	<img src="./local/resources/assets/img/logo/img_healthNet.png" alt="">
-              	<img src="./local/resources/assets/img/logo/img_blue.png" alt="">
-            	<img src="./local/resources/assets/img/logo/img_kaiser.png" alt="">
-              	<img src="./local/resources/assets/img/logo/img_socialWellth.png" alt="">
-             	<img src="./local/resources/assets/img/logo/sage-triumph-logo-grey.png" alt="">
-             	<img src="./local/resources/assets/img/logo/logo-beacon-grey.png" alt="">
-         	</div>
-        </div>
-    </div>
+	</div>    
 	<script type="text/javascript" src="./local/resources/assets/js/jssor.slider.mini.js"></script>
 	<script type="text/javascript" src="./local/resources/assets/js/home.js"></script>
 	

@@ -12,30 +12,6 @@
 	<div class="opacity">
 		<h1>About</h1>
 	</div>
-</div>					
-<div class="about-text">
-	<div class="box">
-		<div class="text-container first">
-			<h2>Text Headline</h2>
-			<h5>Experience, tenure, stuff from infographic orem ipsum dolor sit amet, eiusmod tem  incididunt ipsum.</h5>
-			<h5>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-			Experience, tenure, stuff from infographic orem ipsum.</h5>
-			<h5>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem  incididunt.</h5>	
-			<h5>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>		
-		</div>
-		<div class="text-container second">
-			<div class="line"></div>
-			<h3>To be the premier developer of Digital Health solutions in the US.</h3>
-			<h5>Vision</h5>
-
-		</div>	
-	</div>
-</div>
-<div class="mission">
-	<h2>Mission</h2>
-	<div class="line"></div>
-	<h1>Enabling the Digital Health Revolution</h1>	
-	<h1>*</h1>
 </div>
 <div class="employee">
 	<div class="employee-box">
@@ -128,8 +104,27 @@
 
 	    </div>
 	</div>
+</div>	
+<div class="mission">
+	<h2>Mission</h2>
+	<div class="line"></div>
+	<h1>Enabling the Digital Health Revolution</h1>	
+	<h1>*</h1>
+</div>				
+<div class="about-text">
+	<div class="box">
+		<div class="text-container first">
+			<!-- <h2>Text Headline</h2> -->
+			<!-- <h5>Experience, tenure, stuff from infographic orem ipsum dolor sit amet, eiusmod tem  incididunt ipsum.</h5> -->
+			<h5>We are pioneers of the digital healthcare revolution, leading the charge to transform the healthcare industry in the US for over 15 years.</h5>
+			<h5>We thrive at problem solving, delighting at making the simple out of the complex, to turn the vision of our clients into reality, and exceed their expectations.</h5>	
+			<h5>Our thirst for solving the unknown drives us forward. We think of ourselves as digital healthcare marines storming into unchartered territories, assailing aggressive timelines and weaving through changing objectives. No technological problem left behind.</h5>		
+			<h5>To our clients, we create magic, crafting solutions more quickly, effectively and productively than the ‘big guys’. We love to punch above our weight and that fuels our pride.</h5>		
+			<h5>We operate in a climate of trust and respect, where everyone on the team has a voice and is expected to use it such that the chorus of our voices elevates our game and advances our cause.</h5>
+			<h5>Our successes are meaningful to the lives of millions fueling our sense of satisfaction and purpose, attracting and retaining talent that makes us stronger.</h5>
+		</div>
+	</div>
 </div>
-
 <script type="text/javascript" src="./local/resources/assets/js/about.js"></script>
 
 @endsection

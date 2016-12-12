@@ -13,7 +13,13 @@
  .project .square img {
  	width: 100%;
  	height: auto; 
- 	display: block; 	
+ 	display: block; 
+ 	-webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    -moz-transition: transform 0.5s, -moz-transform 0.5s;
+    -o-transition: transform 0.5s, -o-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s, -moz-transform 0.5s, -o-transform 0.5s;	
  } 
 .project span.imag-opacity {	
  	position: absolute;
@@ -23,7 +29,7 @@
     left: 0;
     background-color: rgba(0,0,0,0.6);
     color: #fff;
-    opacity: 0;  
+    opacity: 1;  
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
@@ -68,11 +74,17 @@
 .project .square a {
 	text-decoration: none;
 }
+/*}
 .project .square .project-description {
 	display: none;
-}
-.project .square a:hover .imag-opacity {
-	opacity: 1;
+}*/
+.project .square a:hover img {
+	-webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    transform: scale(1.15);
+
 }
 .project .square a:hover .project-description {
 	display: block;
