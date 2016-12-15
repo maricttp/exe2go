@@ -9,7 +9,7 @@
 	        <div data-p="225.00" style="display: none;"></div>
 	   </div>
 </div>
-	<div class="project" >
+	<!-- <div class="project" >
 		<div class="row-second">
 			<div class="square">
 				<a target="_blank" href="./local/resources/assets/pdf/CaseStudy_SgMART.pdf">
@@ -80,7 +80,92 @@
 				</a>
 			</div>
 		</div>
-	</div>
+	</div> -->
+	<div class="projects">
+			<div class="row-second">
+				<div class="square">
+					<a target="_blank" href="./local/resources/assets/pdf/CaseStudy_SgMART.pdf">
+						<div id="button" class="button">
+							<span>View Project</span>
+						</div>
+					</a>
+					<div class="imag-opacity"></div>
+					<img class="desktop" src="./local/resources/assets/img/results/img_project11.jpg">
+						<div class="project-description">
+							<p>R&D Project</p>
+							<p>Maintenance and Renewal Activities Web App for Employer Groups</p>
+						</div>						
+				</div>
+				<div class="square">
+					<a target="_blank" href="./local/resources/assets/pdf/CaseStudy_Streams.pdf">
+						<div id="button" class="button">
+							<span>View Project</span>
+						</div>
+					</a>
+					<div class="imag-opacity"></div>
+					<img class="desktop" src="./local/resources/assets/img/results/img_project2a.jpg">
+					<div class="project-description">
+							<p>R&D Project</p>
+							<p>Patient Monitoring Mobile App for Clinicians</p>
+						</div>		
+				</div>
+				<div class="square">
+					<a target="_blank" href="./local/resources/assets/pdf/Doc - Vicert Digital Health Map.pdf">
+						<div id="button" class="button">
+							<span>View Project</span>
+						</div>
+					</a>
+					<div class="imag-opacity"></div>
+					<img class="desktop" src="./local/resources/assets/img/results/img_project3.jpg">
+					<div class="project-description">
+							<p>R&D Project</p>
+							<p>Digital Health Map</p>
+						</div>		
+				</div>								
+			</div>
+			
+			<div class="row-second">
+				<div class="square">
+					<a target="_blank" href="./local/resources/assets/pdf/CaseStudy_FAP.pdf">
+						<div id="button" class="button">
+							<span>View Project</span>
+						</div>
+					</a>
+					<div class="imag-opacity"></div>					
+					<img src="./local/resources/assets/img/results/img_project4.jpg">
+					<div class="project-description">
+							<p>R&D Project</p>
+							<p>Find a Provider App</p>
+					</div>		
+				</div>
+				<div class="square">
+					<a target="_blank" href="http://blog.vicert.com/blog/devops-vicert-lessons-learned">
+						<div id="button" class="button">
+							<span>View Project</span>
+						</div>
+					</a>
+					<div class="imag-opacity"></div>
+					<img src="./local/resources/assets/img/results/blog_4.jpg">
+					<div class="project-description">
+							<p>R&D Project</p>
+							<p>DevOps @ Vicert – Lessons Learned</p>
+					</div>	
+				</div>
+				<div class="square">
+					<a target="_blank" href="http://blog.vicert.com/blog/how-to-integrate-multiple-wellness-devices-using-human-api">
+						<div id="button" class="button">
+							<span>View Project</span>
+						</div>
+					</a>
+					<div class="imag-opacity"></div>
+					<img src="./local/resources/assets/img/results/blog_2.jpg">
+					<div class="project-description">
+							<p>R&D Project</p>
+							<p>How to integrate multiple Wellness devices using Human APIy</p>
+					</div>		
+				</div>
+			</div>
+		</div>
 	
 	
 	<script type="text/javascript" src="./local/resources/assets/js/jssor.slider.mini.js"></script>

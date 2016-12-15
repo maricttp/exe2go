@@ -1,190 +1,198 @@
-.project {
-	width: 100%;
-	margin-top: 95px;	
-	cursor: pointer;
+.projects {
+    float: left;
+    width: 100%; 
+    margin-top: 95px; 
+    background: gray;
 }
-.project .square {
- 	width: 33.3%; 		
- 	float: left; 	
- 	position: relative;
- 	overflow: hidden;
-
+.projects .square {
+    width: 33.3%;     
+    float: left;  
+    position: relative;
+    overflow: hidden;
+    background: rgba(128, 128, 128, 0.91);
  }
- .project .square img {
- 	width: 100%;
- 	height: auto; 
- 	display: block; 
- 	-webkit-transition: -webkit-transform 0.5s;
+
+ .projects [class^="row"] {
+    overflow: hidden;
+ }
+ .projects .square img {
+    width: 100%;
+    height: auto; 
+    display: block;
+    -webkit-transition: -webkit-transform 0.5s;
     transition: -webkit-transform 0.5s;
     -moz-transition: transform 0.5s, -moz-transform 0.5s;
     -o-transition: transform 0.5s, -o-transform 0.5s;
     transition: transform 0.5s;
-    transition: transform 0.5s, -webkit-transform 0.5s, -moz-transform 0.5s, -o-transform 0.5s;	
+    transition: transform 0.5s, -webkit-transform 0.5s, -moz-transform 0.5s, -o-transform 0.5s;
  } 
-.project span.imag-opacity {	
- 	position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(0,0,0,0.6);
-    color: #fff;
-    opacity: 1;  
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -moz-box-align: center;
-    /*-ms-flex-align: center;*/
-    align-items: center;
-    -webkit-transition: opacity 0.5s ease-in-out;
-    -moz-transition: opacity 0.5s ease-in-out;
-    -o-transition: opacity 0.5s ease-in-out;
-    transition: opacity 0.5s ease-in-out;
-}
-.project .square .project-description {
-	position: absolute;
-	z-index: 999999;
+.projects .imag-opacity {
+    position: absolute;
+    background-color: #000;
     width: 100%;
-	color: #ffffff;	
+    height: 100%;
+    z-index: 9999999;
+    opacity: 0.5;
+    transition: opacity 0.5s, -webkit-opacity 0.5s, -moz-opacity 0.5s, -o-opacity 0.5s;
+    -webkit-transition: -webkit-opacity 0.5s;
+    transition: -webkit-opacity 0.5s;
+    -moz-transition: opacity 0.5s, -moz-opacity 0.5s;
+    -o-transition: opacity 0.5s, -o-opacity 0.5s;
+    transition: opacity 0.5s;    
+}
+.projects .square .project-description {
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    color: #ffffff; 
+}
+.projects .square .project-description {
+    top: 39px; 
+    z-index: 999999999;
 }
 
-.project .square .project-description {
-	top: 200px;
+.projects .square .project-description p {
+    padding-left: 31px;
 }
 
-.project .square .project-description p {
-	padding-left: 41px;
-}
-.project .square .project-description p:last-child {
-	padding-top: 9px;
+.projects .square .project-description p:first-child {
     font-size: 16px;
 }
-.project .square .project-description p:first-child {
-	font-size: 24px;
-    font-weight: bold;
+.projects .square .project-description p:last-child {
+    font-size: 24px;  
+    font-weight: bold;    
 }
-.project .square .project-description p:last-child,
- .project .square .project-description p:first-child {    
-    color: #fff;
+.projects .square .project-description p:last-child {
+    padding-top: 33px;
 }
-.project .square a {
-	text-decoration: none;
+.projects .square .last {
+    top: 99px;
+    padding-top: 0;
 }
-/*}
-.project .square .project-description {
-	display: none;
-}*/
-.project .square a:hover img {
-	-webkit-transform: scale(1.15);
+.projects .square:hover img {
+    -webkit-transform: scale(1.15);
     -moz-transform: scale(1.15);
     -ms-transform: scale(1.15);
     -o-transform: scale(1.15);
     transform: scale(1.15);
 
 }
-.project .square a:hover .project-description {
-	display: block;
+.projects .square .button {
+    z-index: 99999999;
+    top: 225px;
+    left: 31px;
+    position: absolute;
+    width: 155px;
+    height: 70px;
+    border-left: 4px solid #01f9ff;
+    border-right: 4px solid #13a0f6;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-position: 0 0, 0 100% ;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 4px;
+    -moz-background-size: 100% 4px;
+    background-size: 100% 4px;
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB2aWV3Qm94PSIwIDAgMSAxIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48bGluZWFyR3JhZGllbnQgaWQ9Imxlc3NoYXQtZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMzYWNmZDUiIHN0b3Atb3BhY2l0eT0iMSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzNhNGVkNSIgc3RvcC1vcGFjaXR5PSIxIi8+PC9saW5lYXJHcmFkaWVudD48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2xlc3NoYXQtZ2VuZXJhdGVkKSIgLz48L3N2Zz4=),url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB2aWV3Qm94PSIwIDAgMSAxIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48bGluZWFyR3JhZGllbnQgaWQ9Imxlc3NoYXQtZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMzYWNmZDUiIHN0b3Atb3BhY2l0eT0iMSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzNhNGVkNSIgc3RvcC1vcGFjaXR5PSIxIi8+PC9saW5lYXJHcmFkaWVudD48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2xlc3NoYXQtZ2VuZXJhdGVkKSIgLz48L3N2Zz4=);
+    background-image: -webkit-linear-gradient(left, #01f9ff 0%, #13a0f6 100%), -webkit-linear-gradient(left, #01f9ff 0%, #13a0f6 100%);
+    background-image: -moz-linear-gradient(left, #01f9ff 0%, #13a0f6 100%), -moz-linear-gradient(left, #01f9ff 0%, #13a0f6 100%);
+    background-image: -o-linear-gradient(left, #01f9ff 0%, #13a0f6 100%), -o-linear-gradient(left, #01f9ff 0%, #13a0f6 100%);
+    background-image: linear-gradient(to right, #01f9ff 0%, #13a0f6 100%), linear-gradient(to right, #01f9ff 0%, #13a0f6 100%);
 }
 
-@media only screen and (max-width: 1000px) {
-	.project .square {
-		float: left;
-    	width: 50%;
+.projects .square .button span {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    line-height: 4.5;
+    margin-left: 24px;
+    overflow: hidden;
+}
+.projects .square .button:hover {
+    background: linear-gradient(to right, #01faff, #12a4f7);
+}
+.projects .square .button:active {
+    background: #000;
+    border-left: 4px solid #000;
+    border-right: 4px solid #000;
+} 
+
+@media(max-width: 1300px) { 
+    
+   .projects .square .button {
+      top: 176px;
+    }
+    .projects .square .project-description p:last-child {
+    	font-size: 22px;
+    	padding-top: 10px
+    }
+
+}
+@media  screen and (max-width: 1100px) {
+    .projects [class^="row"] {
+      overflow: inherit;
+    }   
+    .projects .square {
+      width: 50%;
+    }
+    
+    .projects .square img {  
+        transition: transform 0.3s, -webkit-transform 0.3s, -moz-transform 0.3s, -o-transform 0.3s;
+        -webkit-transition: -webkit-transform 0.3s;
+        transition: -webkit-transform 0.3s;
+        -moz-transition: transform 0.3s, -moz-transform 0.3s;
+        -o-transition: transform 0.3s, -o-transform 0.3s;
+        transition: transform 0.3s;
+    }
+    .projects .square:hover img {
+        -webkit-transition: -webkit-transform 0.3s;
+        transition: -webkit-transform 0.3s;
+        -moz-transition: transform 0.3s, -moz-transform 0.3s;
+        -o-transition: transform 0.3s, -o-transform 0.3s;
+        transition: transform 0.3s;
+        transform: scale(1.);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);        
     }
 }
-@media (max-width: 1380px){
-	.project .square .project-description {
-	top: 140px;
-	}
-}
+@media  screen and (max-width: 700px) {
 
+   .projects .square {
+      width: 100%;
+    }
+    .row-first .square {
+        width: 100%;
+    }   
+}
+@media (max-width: 500px){
+     .projects .square .project-description p:last-child {
+        font-size: 20px;
+     }     
+}
+@media  screen and (max-width: 410px) {
 
-@media only screen and (max-width: 1200px) {
-
-	.project .square .project-description p:first-child {
-		font-size: 20px;
-	}
-	.project .square .project-description p:last-child {
-		font-size: 15px;
-	}
-	
-}
-@media (max-width: 1150px){
-	.project .square .project-description {
-	top: 120px;
-	}
-}
-@media only screen and (max-width: 992px) {
-	.project .square .project-description p:first-child {
-		font-size: 24px;
-	}
-	.project .square .project-description p:last-child {
-		font-size: 16px;
-	}
-	.project .square .project-description {
-	top: 75px;
-}
-}
-@media only screen and (max-width: 768px) {
-	.project .square .project-description p:first-child {
-		font-size: 20px;
-	}
-	.project .square .project-description p:last-child {
-		font-size: 13px;
-	}
-	.project .square .project-description {
-		top: 115px;
-	}
-}
-@media only screen and (max-width: 670px) {
-	.project .square .project-description p:first-child {
-		font-size: 19px;
-	}
-	.project .square .project-description p:last-child {
-		font-size: 14px;
-	}
-	.project .square .project-description {
-	top: 80px;
-}
-}
-@media only screen and (max-width: 600px) {
-	.project .square {
-		float: left;
-    	width: 100%;
-	}
-	.project .square .project-description p:first-child {
-		font-size:24px;
-	}
-	.project .square .project-description p:last-child {
-		font-size: 17px;
-	}
-	.project .square .project-description {
-		top: 132px;
-	}
-}
-@media only screen and (max-width: 420px) {
-	.project .square .project-description p:first-child {
-		font-size: 20px;
-	}
-	.project .square .project-description p:last-child {
-		font-size: 14px;
-	}
-	.project .square .project-description {
-		top: 130px;
-	}
-}
-@media only screen and (max-width: 340px) {
-	.project .square .project-description p:first-child {
-		font-size: 19px;
-	}
-	/*.project .square .project-description p:last-child {
-		font-size: 12px;
-	}*/
-	.project .square .project-description {
-		top: 74px;
-	}
+    .projects .square .project-description p:last-child {
+      font-size: 20px;
+      padding-top: 9px;   
+    } 
+    .projects .square .project-description p:first-child {
+      font-size: 14px;
+    }
+    .projects .square .button {
+      width: 127px;
+      height: 57px;
+    }
+    .projects .square .button {
+      top: 155px;
+    }
+    .projects .square .button span {
+      margin-left: 22px;
+    }
+    .projects .square .button span {
+      font-size: 13px;
+    }
 }

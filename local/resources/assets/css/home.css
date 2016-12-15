@@ -81,7 +81,7 @@
 .blog-box .box {
     width: 1140px;
     margin: 0 auto;
-    padding: 70px 0;
+    padding-top: 70px;
 } 
 .blog-box h2 {
     padding-bottom: 17px;
@@ -93,7 +93,7 @@
     color: #aeaeae;
 }
 .owl-carousel .item {
-    height: 600px;
+    height: 350px;
     background: #fff;
     background: #fff;
     box-shadow: 0px 0px 1px #888888;
@@ -109,26 +109,26 @@
 }
 .owl-carousel .item div p:nth-child(1) {
     text-align: left;
-    font-size: 13;
+    font-size: 10px;
     width: 83%;
     margin: 0 auto;
-    margin-top: 62px
+    margin-top: 40px;
 }
 .owl-carousel .item div p:nth-child(2) {
     width: 85%;
     margin: 9px auto;
     text-align: left;
-    font-size: 25px;
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 23px;
     font-weight: bold;
-    height: 80px;
+    height: 60px;
 }
 .owl-carousel .item div p:nth-child(3) {
     width: 83%;
     margin: 0 auto;
     text-align: left;
-    font-size: 15px;
-    line-height: 30px;
+    font-size: 14px;
+    line-height: 19px;
     padding-top: 5px;
 }
 .owl-carousel .item div p a {
@@ -647,7 +647,7 @@
         line-height: 24px;
     }
     .owl-carousel .item {
-        height: 540px;
+        height: 350px;
     }
 }
 @media (max-width: 670px){

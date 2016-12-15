@@ -17,7 +17,7 @@
 	<div class="employee-box">
 		<h2>Our Team</h2>
 		<div class="line"></div>
-		<h5>Having worked with the Blues, Kaiser Permanente, as well as numerous product companies serving the health IT and Digital Health market we are used to working with both established and new players who seek nimble and specialized partners who can help them solve problems quickly and effectively.</h5>	
+		<!-- <h5>Having worked with the Blues, Kaiser Permanente, as well as numerous product companies serving the health IT and Digital Health market we are used to working with both established and new players who seek nimble and specialized partners who can help them solve problems quickly and effectively.</h5>	 -->
 	    <div id="employee" class="employee-img">
 	         <div class="img-container">
 	         	<img src="./local/resources/assets/img/about/img_aleksandarZ.png"/>

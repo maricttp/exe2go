@@ -27,6 +27,13 @@
 			 		<img src="./local/resources/assets/img/imglogoblack.png" />
 		 		</a>
 			</div>
+			<div class="header-button">
+				<span>
+					<i id="prva" class="bar"></i>
+					<i class="bar"></i>
+					<i id="druga" class="bar"></i>
+				</span>
+			</div>
 			<nav>
 				<ul>
 					<li <?= (($active == "home") ? ' class="active-link"' : '') ?>><a href="{{ url('/') }}">Home</a></li>					
@@ -37,13 +44,7 @@
 					<li><a href="http://blog.vicert.com/blog" target="_blank">Insight</a></li>
 				</ul>
 			</nav>
-			<div class="header-button">
-				<span>
-					<i id="prva" class="bar"></i>
-					<i class="bar"></i>
-					<i id="druga" class="bar"></i>
-				</span>
-			</div>
+			
 		</div>	
 		<!-- <div class="grey-line"></div> -->
 	</header>
