@@ -10,8 +10,8 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-
-Route::get('/', 'HomeController@index');
+Route::get('/', 'HomeController@careers');
+Route::post('/', 'HomeController@index');
 Route::get('/careers', 'HomeController@careers');
 Route::get('/about', 'HomeController@about');
 Route::get('/results', 'HomeController@results');

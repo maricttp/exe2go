@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3a476d6a-b449-4a78-b335-eb0cdd6b4220" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/about/imb_banner.png" afterPath="$PROJECT_DIR$/local/resources/assets/img/about/imb_banner.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/about/img_Boris.png" afterPath="$PROJECT_DIR$/local/resources/assets/img/about/img_Boris.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/about/img_aleksandarZ.png" afterPath="$PROJECT_DIR$/local/resources/assets/img/about/img_aleksandarZ.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/about/img_darko.png" afterPath="$PROJECT_DIR$/local/resources/assets/img/about/img_darko.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/about/img_david.png" afterPath="$PROJECT_DIR$/local/resources/assets/img/about/img_david.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/about/img_dejann.png" afterPath="$PROJECT_DIR$/local/resources/assets/img/about/img_dejann.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/about/img_goran.png" afterPath="$PROJECT_DIR$/local/resources/assets/img/about/img_goran.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/about/img_iva.png" afterPath="$PROJECT_DIR$/local/resources/assets/img/about/img_iva.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/about/img_marija.png" afterPath="$PROJECT_DIR$/local/resources/assets/img/about/img_marija.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/about/img_mat.png" afterPath="$PROJECT_DIR$/local/resources/assets/img/about/img_mat.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/about/img_sanya.png" afterPath="$PROJECT_DIR$/local/resources/assets/img/about/img_sanya.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/about/img_sofija.png" afterPath="$PROJECT_DIR$/local/resources/assets/img/about/img_sofija.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/about/img_vladimir.png" afterPath="$PROJECT_DIR$/local/resources/assets/img/about/img_vladimir.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/about/img_voja.png" afterPath="$PROJECT_DIR$/local/resources/assets/img/about/img_voja.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/expertise/architecture_logos.png" afterPath="$PROJECT_DIR$/local/resources/assets/img/expertise/architecture_logos.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/expertise/architecutre_design_icon.png" afterPath="$PROJECT_DIR$/local/resources/assets/img/expertise/architecutre_design_icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/expertise/deploy-icon.png" afterPath="$PROJECT_DIR$/local/resources/assets/img/expertise/deploy-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/expertise/img_01.png" afterPath="$PROJECT_DIR$/local/resources/assets/img/expertise/img_01.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/expertise/img_02.png" afterPath="$PROJECT_DIR$/local/resources/assets/img/expertise/img_02.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/expertise/img_03.png" afterPath="$PROJECT_DIR$/local/resources/assets/img/expertise/img_03.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/expertise/img_04.png" afterPath="$PROJECT_DIR$/local/resources/assets/img/expertise/img_04.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/expertise/img_05.png" afterPath="$PROJECT_DIR$/local/resources/assets/img/expertise/img_05.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/expertise/img_analytics.png" afterPath="$PROJECT_DIR$/local/resources/assets/img/expertise/img_analytics.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/expertise/img_appDevelopment.png" afterPath="$PROJECT_DIR$/local/resources/assets/img/expertise/img_appDevelopment.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/expertise/img_deployment.png" afterPath="$PROJECT_DIR$/local/resources/assets/img/expertise/img_deployment.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/expertise/img_hero.png" afterPath="$PROJECT_DIR$/local/resources/assets/img/expertise/img_hero.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/expertise/imglogocolor.png" afterPath="$PROJECT_DIR$/local/resources/assets/img/expertise/imglogocolor.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/expertise/logotipi_1.png" afterPath="$PROJECT_DIR$/local/resources/assets/img/expertise/logotipi_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/expertise/prod_dev_icon.png" afterPath="$PROJECT_DIR$/local/resources/assets/img/expertise/prod_dev_icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/expertise/solution_icon.png" afterPath="$PROJECT_DIR$/local/resources/assets/img/expertise/solution_icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/expertise/sys_integration_icon.png" afterPath="$PROJECT_DIR$/local/resources/assets/img/expertise/sys_integration_icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/expertise/sys_integration_logos.png" afterPath="$PROJECT_DIR$/local/resources/assets/img/expertise/sys_integration_logos.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/expertise/tech_implement_icon.png" afterPath="$PROJECT_DIR$/local/resources/assets/img/expertise/tech_implement_icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/expertise/tech_info_logos.png" afterPath="$PROJECT_DIR$/local/resources/assets/img/expertise/tech_info_logos.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/home/blog_0.jpg" afterPath="$PROJECT_DIR$/local/resources/assets/img/home/blog_0.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/home/blog_1.jpg" afterPath="$PROJECT_DIR$/local/resources/assets/img/home/blog_1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/home/blog_2.jpg" afterPath="$PROJECT_DIR$/local/resources/assets/img/home/blog_2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/home/blog_3.jpg" afterPath="$PROJECT_DIR$/local/resources/assets/img/home/blog_3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/home/blog_4.jpg" afterPath="$PROJECT_DIR$/local/resources/assets/img/home/blog_4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/home/blog_5.jpg" afterPath="$PROJECT_DIR$/local/resources/assets/img/home/blog_5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/home/img_project1.png" afterPath="$PROJECT_DIR$/local/resources/assets/img/home/img_project1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/home/img_project11.jpg" afterPath="$PROJECT_DIR$/local/resources/assets/img/home/img_project11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/home/img_project1a.png" afterPath="$PROJECT_DIR$/local/resources/assets/img/home/img_project1a.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/home/img_project2.jpg" afterPath="$PROJECT_DIR$/local/resources/assets/img/home/img_project2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/home/img_project2a.jpg" afterPath="$PROJECT_DIR$/local/resources/assets/img/home/img_project2a.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/home/img_project3.jpg" afterPath="$PROJECT_DIR$/local/resources/assets/img/home/img_project3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/home/img_project4.jpg" afterPath="$PROJECT_DIR$/local/resources/assets/img/home/img_project4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/home/img_project5.jpg" afterPath="$PROJECT_DIR$/local/resources/assets/img/home/img_project5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/home/img_viewAll.jpg" afterPath="$PROJECT_DIR$/local/resources/assets/img/home/img_viewAll.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/home/imgherofirst.jpg" afterPath="$PROJECT_DIR$/local/resources/assets/img/home/imgherofirst.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/resources/assets/img/home/imgherofirst1.jpg" afterPath="$PROJECT_DIR$/local/resources/assets/img/home/imgherofirst1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/app/Http/Controllers/HomeController.php" afterPath="$PROJECT_DIR$/local/app/Http/Controllers/HomeController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/app/Http/routes.php" afterPath="$PROJECT_DIR$/local/app/Http/routes.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="exe2go" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/local/app/Http/Controllers/HomeController.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="260" />
+    <option name="y" value="21" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exe2go" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exe2go" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exe2go" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exe2go" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exe2go" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exe2go" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exe2go" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exe2go" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exe2go" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exe2go" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a476d6a-b449-4a78-b335-eb0cdd6b4220" name="Default" comment="" />
+      <created>1485952188829</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1485952188829</updated>
+      <workItem from="1485952191281" duration="163000" />
+      <workItem from="1485952397766" duration="4000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="167000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="260" y="21" width="1400" height="1000" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496382" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/local/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="38" column="28" lean-forward="false" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
